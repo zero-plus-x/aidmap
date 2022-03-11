@@ -12,7 +12,13 @@ import {
   Typography,
 } from '@mui/material'
 
-export const PointInfo = ({ name }) => {
+export const PointInfo = ({
+  onClose,
+  country,
+  nameCode,
+  coordinates,
+  info,
+}) => {
   return (
     <Dialog fullScreen open>
       <AppBar sx={{ position: 'relative' }}>
@@ -20,30 +26,29 @@ export const PointInfo = ({ name }) => {
           <IconButton
             edge="start"
             color="inherit"
-            // onClick={handleClose}
+            onClick={onClose}
             aria-label="close"
           >
             <Close />
           </IconButton>
           <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
-            {name}
+            {nameCode}
           </Typography>
-          <Button autoFocus color="inherit">
-            save
-          </Button>
         </Toolbar>
       </AppBar>
       <List>
-        <ListItem button>
-          <ListItemText primary="Phone ringtone" secondary="Titania" />
+        <ListItem>
+          <ListItemText primary={country} secondary={nameCode} />
         </ListItem>
         <Divider />
-        <ListItem button>
-          <ListItemText
-            primary="Default notification ringtone"
-            secondary="Tethys"
-          />
-        </ListItem>
+        {info.map(({ typeCode, textCode, link }) => (
+          <ListItem key={typeCode}>
+            <ListItemText
+              primary={textCode}
+              secondary={link}
+            />
+          </ListItem>
+        ))}
       </List>
     </Dialog>
   )

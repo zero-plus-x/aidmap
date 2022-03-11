@@ -118,19 +118,17 @@ const Map = ({ points }) => {
         <circle cx="521" cy="266.6" id="2">
         </circle>
         {Object.entries(points).map(([code, point]) => (
-          <>
-            <circle
-              key={code}
-              cx={point.coordinates.x}
-              cy={point.coordinates.y}
-              r={7}
-              fill="#3366ff"
-              stroke="#3366ff"
-              strokeWidth="5"
-              strokeOpacity={0.5}
-              onClick={() => {setActivePoint(point)}}
-            />
-          </>
+          <circle
+            key={code}
+            cx={point.coordinates.x}
+            cy={point.coordinates.y}
+            r={7}
+            fill="#3366ff"
+            stroke="#3366ff"
+            strokeWidth="5"
+            strokeOpacity={0.5}
+            onClick={() => {setActivePoint(point)}}
+          />
         ))}
       </svg>
       {activePoint && <PointInfo {...activePoint} onClose={() => {setActivePoint(null)}} />}
