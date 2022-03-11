@@ -17,7 +17,7 @@ function useScreenSize() {
     setHeight(mapHeight)
     setWidth(mapWidth)
     setMargin(mapMargin)
-  })
+  }, [])
 
   return { width, height, margin }
 }
