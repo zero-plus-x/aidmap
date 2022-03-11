@@ -45,7 +45,7 @@ export const PointInfo = ({
           <ListItem key={typeCode}>
             <ListItemText
               primary={textCode}
-              secondary={link}
+              secondary={<a href={link}>{link}</a>}
             />
           </ListItem>
         ))}
