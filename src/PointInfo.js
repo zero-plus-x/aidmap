@@ -10,6 +10,7 @@ import {
   Toolbar,
   Typography,
 } from '@mui/material'
+import { useTranslation } from './useTranslation'
 
 export const PointInfo = ({
   onClose,
@@ -18,6 +19,8 @@ export const PointInfo = ({
   coordinates,
   info,
 }) => {
+  const t = useTranslation()
+
   return (
     <Dialog fullScreen open>
       <AppBar sx={{ position: 'relative' }}>
@@ -31,19 +34,19 @@ export const PointInfo = ({
             <Close />
           </IconButton>
           <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
-            {nameCode}
+            {t(nameCode)}
           </Typography>
         </Toolbar>
       </AppBar>
       <List>
         <ListItem>
-          <ListItemText primary={country} secondary={nameCode} />
+          <ListItemText primary={t(country)} secondary={t(nameCode)} />
         </ListItem>
         <Divider />
         {info.map(({ typeCode, textCode, link }) => (
           <ListItem key={typeCode}>
             <ListItemText
-              primary={textCode}
+              primary={t(textCode)}
               secondary={<a href={link}>{link}</a>}
             />
           </ListItem>

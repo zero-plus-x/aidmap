@@ -2,12 +2,15 @@ import './App.css'
 import * as data from './data/data.json'
 
 import Map from './components/Map'
+import { LocaleProvider } from './localeContext'
 
 function App() {
   return (
-    <div className="App">
-      <Map {...data} />
-    </div>
+    <LocaleProvider>
+      <div className="App">
+        <Map {...data} />
+      </div>
+    </LocaleProvider>
   )
 }
 
