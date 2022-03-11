@@ -37,6 +37,15 @@
       },
       "info": []
     },
+    "Gdansk": {
+      "country": "Poland",
+      "nameCode": "point.Gdansk",
+      "coordinates": {
+        "x": 619,
+        "y": 353
+      },
+      "info": []
+    },
     "Stockholm": {
       "country": "Sweden",
       "nameCode": "point.Stockholm",
