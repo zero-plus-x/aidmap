@@ -1,0 +1,82 @@
+{
+  "countries": {
+    "Ukraine": {
+      "nameCode": "country.Ukraine",
+      "localLanguage": "uk",
+      "info": [
+        {
+          "typeCode": "usefulLink",
+          "textCode": "Ukraine.usefulLink.mfa",
+          "link": "https://mfa.gov.ua"
+        }
+      ]
+    },
+    "Poland": {
+      "nameCode": "country.Poland",
+      "localLanguage": "pl",
+      "info": [
+        {
+          "typeCode": "usefulFact",
+          "textCode": "Poland.usefulFact.takesInRefugees"
+        }
+      ]
+    },
+    "Sweden": {
+      "nameCode": "country.Sweden",
+      "localLanguage": "sv",
+      "info": []
+    }
+  },
+  "point": {
+    "Lviv": {
+      "country": "Ukraine",
+      "nameCode": "point.Lviv",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "info": []
+    },
+    "Stockholm": {
+      "country": "Sweden",
+      "nameCode": "point.Stockholm",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "info": [
+        {
+          "typeCode": "accommodation",
+          "textCode": "Stockholm.accommodation.refugeesWelcomeStockholm",
+          "link": "https://www.refugeeswelcomestockholm.se/"
+        },
+        {
+          "typeCode": "migration",
+          "textCode": "Stockholm.migration.migrationInfo",
+          "link": "https://www.migrationsverket.se/English/About-the-Migration-Agency/The-situation-in-Ukraine.html"
+        }
+      ]
+    }
+  },
+  "connections": [
+    {
+      "start": "Gdansk",
+      "end": "Nynäshamn",
+      "typeCode": "ferry",
+      "textCode": "Gdansk.Nynäshamn.ferry",
+      "free": true,
+      "info": [
+        {
+          "typeCode": "usefulLink",
+          "textCode": "schedule",
+          "link": "https://polferries.com/prices-i-timetable/ferries-to-sweden-timetable.html?code=ng"
+        },
+        {
+          "typeCode": "usefulLink",
+          "textCode": "booking",
+          "link": "https://booking.polferries.pl/polferries-war/ic/relations/relations.xhtml?lang=en&dest=ny&rdest=gd"
+        }
+      ]
+    }
+  ]
+}

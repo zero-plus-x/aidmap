@@ -1,0 +1,48 @@
+{
+  "country.Ukraine": {
+    "en": "Ukraine",
+    "uk": "Україна",
+    "ru": "Украина"
+  },
+  "country.Poland": {
+    "en": "Poland",
+    "uk": "Польща",
+    "ru": "Польша",
+    "pl": "Polska"
+  },
+  "country.Sweden": {
+    "en": "Sweden",
+    "uk": "Швеція",
+    "ru": "Швеция",
+    "sv": "Sverige"
+  },
+  "point.Lviv": {
+    "en": "Lviv",
+    "uk": "Львів",
+    "ru": "Львов"
+  },
+  "point.Warsaw": {
+    "en": "Warsaw",
+    "uk": "Варшава",
+    "ru": "Варшава",
+    "pl": "Warszawa"
+  },
+  "point.Gdansk": {
+    "en": "Warsaw",
+    "uk": "Гданськ",
+    "ru": "Гданьск",
+    "pl": "Gdańsk"
+  },
+  "point.Nynäshamn": {
+    "en": "Nynäshamn",
+    "uk": "Нюнесхамн",
+    "ru": "Нюнесхамн",
+    "sv": "Nynäshamn"
+  },
+  "point.Stockholm": {
+    "en": "Stockholm",
+    "uk": "Стокгольм",
+    "ru": "Стокгольм",
+    "sv": "Stockholm"
+  }
+}
