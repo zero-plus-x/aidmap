@@ -32,8 +32,8 @@
       "country": "Ukraine",
       "nameCode": "point.Lviv",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 692,
+        "y": 416
       },
       "info": []
     },
@@ -41,8 +41,8 @@
       "country": "Sweden",
       "nameCode": "point.Stockholm",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 595,
+        "y": 273
       },
       "info": [
         {

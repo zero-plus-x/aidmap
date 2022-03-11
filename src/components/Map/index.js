@@ -1,25 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import useScreenSize from '../../hooks/useScreenSize'
 
-const Map = () => {
-  const [ width, setWidth ] = useState(0)
-  const [ height, setHeight ] = useState(0)
-  const [ margin, setMargin ] = useState(0)
-
-  useEffect(() => {
-    const screenWidth = window.screen.width
-    const screenHeight = window.screen.height
-
-    const mapWidth = Math.round((screenHeight * 1000) / 684)
-    const mapHeight = screenHeight
-
-    const mapMargin = Math.round((screenWidth - mapWidth) / 2)
-
-    setHeight(mapHeight)
-    setWidth(mapWidth)
-    setMargin(mapMargin)
-
-    console.log(mapMargin)
-  })
+const Map = ({ point }) => {
+  const { width, height, margin } = useScreenSize()
+  const points = Object.entries(point)
 
   return (
     <svg
@@ -33,6 +17,7 @@ const Map = () => {
       width={width}
       style={{ marginLeft: `${margin}px` }}
       xmlns="http://www.w3.org/2000/svg"
+      onClick={(event) => { console.log(event)}}
     >
       <path d="M654.7 528.1l0.5 0.4 2 2.9 1.4 0.5 1.9 1.3 1.4 3.2 0.1 2.2-0.5 2.6 0.3 2.1-0.8 0.8 0.7 2 0.2 1.9 1.2 2.2 1.2 1.1 1.3 2.4 1.6-0.2 1.3 1.1 0 1.1 1.1 1.8-0.8 2.6-1.7 0.8-1.2 3.1-0.3 2-0.6 0.5-1.9 0.3-1.7 1.3 1 2.2-0.9 0.7-0.3 1.5-0.7 0.7-2.7-0.9-0.7-2.5-1.7-2.7-4.9-2.6-1.2-1.1 0.4-1.5-0.1-1.4-1.4-2.4 0.3-2.6 0.8-2.2-0.3-2.7 0.1-2.1-0.7-2.9 0.5-2.1 0.9-1.3-0.2-2.2-1.5-1.1-1.6-0.2 0-3.1-0.3-0.6 1.7 0-1.7-2.8 3.2-5.3 1.1 0.3 0.8 2.1 3.4-1.2z" id="AL" name="Albania">
       </path>
@@ -130,6 +115,20 @@ const Map = () => {
       </circle>
       <circle cx="521" cy="266.6" id="2">
       </circle>
+      {points.map(([code, point]) => (
+        <>
+          <circle
+            key={code}
+            cx={point.coordinates.x}
+            cy={point.coordinates.y}
+            r={7}
+            fill="#3366ff"
+            stroke="#3366ff"
+            strokeWidth="5"
+            strokeOpacity={0.5}
+          />
+        </>
+      ))}
     </svg>
   )
 }
