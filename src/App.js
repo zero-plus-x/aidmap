@@ -5,6 +5,7 @@ import Map from './components/Map'
 import { LocaleProvider } from './localeContext'
 
 function App() {
+
   return (
     <LocaleProvider>
       <div className="App">

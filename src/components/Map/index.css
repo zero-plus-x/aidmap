@@ -1,0 +1,17 @@
+#map {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.country {
+  fill: #ececec;
+  stroke: black;
+  strokeLinecap: round;
+  strokeLinejoin: round;
+  strokeWidth: .1;
+}
+.country:hover {
+  fill: rgba(8, 81, 156, 0.2);
+  cursor:pointer;
+}

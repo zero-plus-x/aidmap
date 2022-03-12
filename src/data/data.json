@@ -209,8 +209,8 @@
       ],
       "nameCode": "point.Lviv",
       "coordinates": {
-        "x": 692,
-        "y": 416
+        "x": 49.841757,
+        "y": 24.025025
       },
       "info": []
     },
@@ -220,8 +220,8 @@
       ],
       "nameCode": "point.Gdansk",
       "coordinates": {
-        "x": 619,
-        "y": 353
+        "x": 54.352206,
+        "y": 18.639887
       },
       "info": []
     },
@@ -231,8 +231,8 @@
       ],
       "nameCode": "point.Warsaw",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 52.231528,
+        "y": 21.014172
       },
       "info": []
     },
@@ -243,8 +243,8 @@
       ],
       "nameCode": "point.Yagodyn",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 51.186597,
+        "y": 23.809115
       },
       "info": []
     },
@@ -254,8 +254,8 @@
       ],
       "nameCode": "point.Stockholm",
       "coordinates": {
-        "x": 595,
-        "y": 273
+        "x": 59.328910,
+        "y": 18.068551
       },
       "info": [
         {

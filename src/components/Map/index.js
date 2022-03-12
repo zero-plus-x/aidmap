@@ -1,58 +1,74 @@
-import React, { useState } from 'react'
-import { PointInfo } from '../PointInfo'
-import useScreenSize from '../../hooks/useScreenSize'
-import { Countries } from '../Countries'
+import React, { useEffect } from 'react'
+import {
+  geoMercator,
+  geoPath,
+  select,
+  zoom,
+} from 'd3'
+import { feature } from 'topojson-client'
+import { debounce } from '../../utils'
 
-const Map = ({ points, countries }) => {
-  const [activePoint, setActivePoint] = useState(null)
-  const { width, height, margin } = useScreenSize()
+import topology from '../../data/topology.json'
+
+import './index.css'
+
+const DEFAULT_SCALE = 0.6
+const POINT_RADIUS = 10
+
+const Map = ({ points, connections }) => {
+  useEffect(() => {
+    const width = window.screen.width
+    const height = window.screen.height
+
+    const projection = geoMercator()
+      .center([20, 52])
+      .translate([width / 2, height / 2])
+      .scale([width / DEFAULT_SCALE])
+
+    const svg = select('#map')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
+
+    const path = geoPath()
+      .projection(projection)
+
+    const g = svg.append('g')
+
+    g.selectAll('path')
+      .data(feature(topology, topology.objects.countries).features)
+      .enter()
+      .append('path')
+      .attr('class', 'country')
+      .attr('d', path)
+
+    g.selectAll('circle')
+      .data(Object.values(points))
+      .enter()
+      .append('circle')
+      .attr('class', 'point')
+      .attr('cx', d => projection([d.coordinates.y, d.coordinates.x])[0])
+      .attr('cy', d => projection([d.coordinates.y, d.coordinates.x])[1])
+      .attr('r', POINT_RADIUS)
+      .style('fill', '#006fab')
+
+    const zoomFn = zoom()
+      .scaleExtent([1, 5])
+      .on('zoom', debounce((event) => {
+        console.log('zoom', event)
+        g.selectAll('path')
+          .attr('transform', event.transform)
+
+        g.selectAll('circle')
+          .attr('transform', event.transform)
+          .attr('r', POINT_RADIUS / event.transform.k)
+      }))
+
+    svg.call(zoomFn)
+  }, [points])
 
   return (
-    <>
-      <svg
-        fill="#ececec"
-        height={height}
-        stroke="black"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth=".1"
-        viewBox={`0 0 ${width} ${height}`}
-        width={width}
-        style={{ marginLeft: `${margin}px` }}
-        xmlns="http://www.w3.org/2000/svg"
-        onClick={(event) => {
-          console.log(event)
-        }}
-      >
-        <Countries countries={countries} />
-        <circle cx="399.9" cy="390.8" id="0"></circle>
-        <circle cx="575.4" cy="412" id="1"></circle>
-        <circle cx="521" cy="266.6" id="2"></circle>
-        {Object.entries(points).map(([code, point]) => (
-          <circle
-            key={code}
-            cx={point.coordinates.x}
-            cy={point.coordinates.y}
-            r={7}
-            fill="#3366ff"
-            stroke="#3366ff"
-            strokeWidth="5"
-            strokeOpacity={0.5}
-            onClick={() => {
-              setActivePoint(point)
-            }}
-          />
-        ))}
-      </svg>
-      {activePoint && (
-        <PointInfo
-          {...activePoint}
-          onClose={() => {
-            setActivePoint(null)
-          }}
-        />
-      )}
-    </>
+    <div id="map" />
   )
 }
 
