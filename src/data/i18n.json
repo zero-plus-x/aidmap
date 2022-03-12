@@ -310,6 +310,11 @@
     "uk": "Бронювання",
     "ru": "Бронирование"
   },
+  "schedule and booking": {
+    "en": "Schedule and booking",
+    "uk": "Розклад i бронювання",
+    "ru": "Расписание и бронирование"
+  },
   "Poland.usefulFact.takesInRefugees": {
     "en": "Poland welcomes Ukrainian refugees.",
     "uk": "Польща вітає українських біженців.",
@@ -325,10 +330,15 @@
     "uk": "blОфіційна інформація для українських біженців від Шведської міграційної управи.",
     "ru": "Официальная информация для украинских беженцев от Миграционной службы Швеции. "
   },
-  "Gdansk.Nynäshamn.ferry": {
-    "en": "The ferry from Gdansk to Nynäshamn is one of the easiest ways for Ukrainians to get to Sweden. It is free for the people with Ukrainian passports. Usually goes every day at 18:00 except Sundays. Nynäshamn train station is a part of Stockholm public transport system, which is also free for Ukrainians.",
-    "uk": "Пором із Гданська до Нюнесхамна – один із найпростіших способів для українців дістатися до Швеції. Для людей з українськими паспортами це безкоштовно. Зазвичай ходить щодня о 18:00, крім неділі. Залізничний вокзал Нюнесхамн є частиною системи громадського транспорту Стокгольма, який також є безкоштовним для українців.",
-    "ru": "Паром из Гданьска в Нюнесхамн — один из самых простых способов попасть в Швецию для украинцев. Это бесплатно для людей с украинскими паспортами. Обычно ходит каждый день в 18:00, кроме воскресенья. Железнодорожный вокзал Нюнесхамн является частью системы общественного транспорта Стокгольма, проезд для украинцев также бесплатный. "
+  "Warsaw.Gdansk.train": {
+    "en": "Train connection between Warsaw and Gdansk.",
+    "uk": "Залізничне сполучення між Варшавою та Гданськом.",
+    "ru": "Железнодорожное сообщение между Варшавой и Гданьском."
+  },
+  "Warsaw.Gdansk.flixbus": {
+    "en": "Flixbus is a company providing intercity bus routes.",
+    "uk": "Flixbus — компанія, що надає міжміські автобусні маршрути.",
+    "ru": "Flixbus — компания, предоставляющая междугородние автобусные маршруты."
   },
   "template": {
     "en": "template",
