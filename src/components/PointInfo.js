@@ -1,7 +1,6 @@
 import { Close } from '@mui/icons-material'
 import {
   AppBar,
-  Button,
   Dialog,
   Divider,
   IconButton,
@@ -11,8 +10,17 @@ import {
   Toolbar,
   Typography,
 } from '@mui/material'
+import { useTranslation } from '../useTranslation'
 
-export const CountryInfo = ({ name }) => {
+export const PointInfo = ({
+  onClose,
+  country,
+  nameCode,
+  coordinates,
+  info,
+}) => {
+  const t = useTranslation()
+
   return (
     <Dialog fullScreen open>
       <AppBar sx={{ position: 'relative' }}>
@@ -20,30 +28,29 @@ export const CountryInfo = ({ name }) => {
           <IconButton
             edge="start"
             color="inherit"
-            // onClick={handleClose}
+            onClick={onClose}
             aria-label="close"
           >
             <Close />
           </IconButton>
           <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
-            {name}
+            {t(nameCode)}
           </Typography>
-          <Button autoFocus color="inherit">
-            save
-          </Button>
         </Toolbar>
       </AppBar>
       <List>
-        <ListItem button>
-          <ListItemText primary="Phone ringtone" secondary="Titania" />
+        <ListItem>
+          <ListItemText primary={t(country)} secondary={t(nameCode)} />
         </ListItem>
         <Divider />
-        <ListItem button>
-          <ListItemText
-            primary="Default notification ringtone"
-            secondary="Tethys"
-          />
-        </ListItem>
+        {info.map(({ typeCode, textCode, link }) => (
+          <ListItem key={typeCode}>
+            <ListItemText
+              primary={t(textCode)}
+              secondary={<a href={link}>{link}</a>}
+            />
+          </ListItem>
+        ))}
       </List>
     </Dialog>
   )

@@ -2,7 +2,6 @@ import { Close } from '@mui/icons-material'
 import {
   AppBar,
   Dialog,
-  Divider,
   IconButton,
   List,
   ListItem,
@@ -10,15 +9,9 @@ import {
   Toolbar,
   Typography,
 } from '@mui/material'
-import { useTranslation } from './useTranslation'
+import { useTranslation } from '../useTranslation'
 
-export const PointInfo = ({
-  onClose,
-  country,
-  nameCode,
-  coordinates,
-  info,
-}) => {
+export const CountryInfo = ({ nameCode, info, onClose }) => {
   const t = useTranslation()
 
   return (
@@ -39,10 +32,6 @@ export const PointInfo = ({
         </Toolbar>
       </AppBar>
       <List>
-        <ListItem>
-          <ListItemText primary={t(country)} secondary={t(nameCode)} />
-        </ListItem>
-        <Divider />
         {info.map(({ typeCode, textCode, link }) => (
           <ListItem key={typeCode}>
             <ListItemText
