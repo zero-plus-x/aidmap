@@ -242,6 +242,12 @@
     "ru": "Гданьск",
     "pl": "Gdańsk"
   },
+  "point.Yagodyn": {
+    "en": "Border crossing point for cars Yagodyn - Dorohusk",
+    "uk": "Пункт пропуску для автомобільного сполучення Ягодин - Дорогуськ",
+    "ru": "Пункт автомобильного перехода границы Ягодин - Дорогуск",
+    "pl": "Przejście Graniczne Jagodzin-Dorohusk"
+  },
   "point.Nynäshamn": {
     "en": "Nynäshamn",
     "uk": "Нюнесхамн",

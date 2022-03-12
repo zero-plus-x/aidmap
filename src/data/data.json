@@ -204,7 +204,9 @@
   },
   "points": {
     "Lviv": {
-      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
       "nameCode": "point.Lviv",
       "coordinates": {
         "x": 692,
@@ -213,7 +215,9 @@
       "info": []
     },
     "Gdansk": {
-      "country": "Poland",
+      "countries": [
+        "Poland"
+      ],
       "nameCode": "point.Gdansk",
       "coordinates": {
         "x": 619,
@@ -221,8 +225,22 @@
       },
       "info": []
     },
+    "Yagodyn": {
+      "countries": [
+        "Ukraine",
+        "Poland"
+      ],
+      "nameCode": "point.Yagodyn",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "info": []
+    },
     "Stockholm": {
-      "country": "Sweden",
+      "countries": [
+        "Sweden"
+      ],
       "nameCode": "point.Stockholm",
       "coordinates": {
         "x": 595,
