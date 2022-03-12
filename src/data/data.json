@@ -225,6 +225,17 @@
       },
       "info": []
     },
+    "Warsaw": {
+      "countries": [
+        "Poland"
+      ],
+      "nameCode": "point.Warsaw",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "info": []
+    },
     "Yagodyn": {
       "countries": [
         "Ukraine",
@@ -277,6 +288,34 @@
           "typeCode": "usefulLink",
           "textCode": "booking",
           "link": "https://booking.polferries.pl/polferries-war/ic/relations/relations.xhtml?lang=en&dest=ny&rdest=gd"
+        }
+      ]
+    },
+    {
+      "start": "Warsaw",
+      "end": "Gdansk",
+      "typeCode": "train",
+      "textCode": "Warsaw.Gdansk.train",
+      "free": true,
+      "info": [
+        {
+          "typeCode": "usefulLink",
+          "textCode": "schedule and booking",
+          "link": "https://booking.polrail.com/index.php?main_page=page_2&language=ua"
+        }
+      ]
+    },
+    {
+      "start": "Warsaw",
+      "end": "Gdansk",
+      "typeCode": "bus",
+      "textCode": "Warsaw.Gdansk.flixbus",
+      "free": true,
+      "info": [
+        {
+          "typeCode": "usefulLink",
+          "textCode": "schedule and booking",
+          "link": "https://shop.flixbus.ua/search?_sp=05aba205-8f5a-4c77-9b87-39fcc8909650.1647109713376&departureCity=40e19c59-8646-11e6-9066-549f350fcb0c&arrivalCity=40de6982-8646-11e6-9066-549f350fcb0c&route=Warsaw-Gda%C5%84sk&_locale=uk"
         }
       ]
     }
