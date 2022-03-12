@@ -21,9 +21,184 @@
         }
       ]
     },
+    "Moldova": {
+      "nameCode": "country.Moldova",
+      "localLanguage": "ro",
+      "info": []
+    },
+    "Romania": {
+      "nameCode": "country.Romania",
+      "localLanguage": "ro",
+      "info": []
+    },
+    "Hungary": {
+      "nameCode": "country.Hungary",
+      "localLanguage": "hu",
+      "info": []
+    },
+    "Slovakia": {
+      "nameCode": "country.Slovakia",
+      "localLanguage": "sk",
+      "info": []
+    },
+    "Lithuania": {
+      "nameCode": "country.Lithuania",
+      "localLanguage": "lt",
+      "info": []
+    },
     "Sweden": {
       "nameCode": "country.Sweden",
       "localLanguage": "sv",
+      "info": []
+    },
+    "Germany": {
+      "nameCode": "country.Germany",
+      "localLanguage": "de",
+      "info": []
+    },
+    "Czechia": {
+      "nameCode": "country.Czechia",
+      "localLanguage": "cs",
+      "info": []
+    },
+    "Austria": {
+      "nameCode": "country.Austria",
+      "localLanguage": "de",
+      "info": []
+    },
+    "Slovenia": {
+      "nameCode": "country.Slovenia",
+      "localLanguage": "sl",
+      "info": []
+    },
+    "Croatia": {
+      "nameCode": "country.Croatia",
+      "localLanguage": "hr",
+      "info": []
+    },
+    "Serbia": {
+      "nameCode": "country.Serbia",
+      "localLanguage": "sr",
+      "info": []
+    },
+    "Bulgaria": {
+      "nameCode": "country.Bulgaria",
+      "localLanguage": "bg",
+      "info": []
+    },
+    "Latvia": {
+      "nameCode": "country.Latvia",
+      "localLanguage": "lv",
+      "info": []
+    },
+    "Estonia": {
+      "nameCode": "country.Estonia",
+      "localLanguage": "et",
+      "info": []
+    },
+    "Finland": {
+      "nameCode": "country.Finland",
+      "localLanguage": "fi",
+      "info": []
+    },
+    "Norway": {
+      "nameCode": "country.Norway",
+      "localLanguage": "nn",
+      "info": []
+    },
+    "Denmark": {
+      "nameCode": "country.Denmark",
+      "localLanguage": "da",
+      "info": []
+    },
+    "Netherlands": {
+      "nameCode": "country.Netherlands",
+      "localLanguage": "nl",
+      "info": []
+    },
+    "Belgium": {
+      "nameCode": "country.Belgium",
+      "localLanguage": "fr",
+      "info": []
+    },
+    "Luxembourg": {
+      "nameCode": "country.Luxembourg",
+      "localLanguage": "de",
+      "info": []
+    },
+    "France": {
+      "nameCode": "country.France",
+      "localLanguage": "fr",
+      "info": []
+    },
+    "Switzerland": {
+      "nameCode": "country.Switzerland",
+      "localLanguage": "de",
+      "info": []
+    },
+    "Lichtenstein": {
+      "nameCode": "country.Lichtenstein",
+      "localLanguage": "de",
+      "info": []
+    },
+    "Italy": {
+      "nameCode": "country.Italy",
+      "localLanguage": "it",
+      "info": []
+    },
+    "Bosnia and Herzegovina": {
+      "nameCode": "country.Bosnia and Herzegovina",
+      "localLanguage": "bs",
+      "info": []
+    },
+    "Montenegro": {
+      "nameCode": "country.Montenegro",
+      "localLanguage": "sr",
+      "info": []
+    },
+    "Albania": {
+      "nameCode": "country.Albania",
+      "localLanguage": "sq",
+      "info": []
+    },
+    "North Macedonia": {
+      "nameCode": "country.North Macedonia",
+      "localLanguage": "mk",
+      "info": []
+    },
+    "Greece": {
+      "nameCode": "country.Greece",
+      "localLanguage": "el",
+      "info": []
+    },
+    "Turkey": {
+      "nameCode": "country.Turkey",
+      "localLanguage": "tr",
+      "info": []
+    },
+    "United Kingdom": {
+      "nameCode": "country.United Kingdom",
+      "localLanguage": "en",
+      "info": []
+    },
+    "Ireland": {
+      "nameCode": "country.Ireland",
+      "localLanguage": "ga",
+      "info": []
+    },
+    "Spain": {
+      "nameCode": "country.Spain",
+      "localLanguage": "es",
+      "info": []
+    },
+    "Portugal": {
+      "nameCode": "country.Portugal",
+      "localLanguage": "pt",
+      "info": []
+    },
+    "Cyprus": {
+      "nameCode": "country.Cyprus",
+      "localLanguage": "el",
       "info": []
     }
   },

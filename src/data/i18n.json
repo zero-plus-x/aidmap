@@ -10,11 +10,220 @@
     "ru": "Польша",
     "pl": "Polska"
   },
+  "country.Moldova": {
+    "en": "Moldova",
+    "uk": "Молдова",
+    "ru": "Молдова",
+    "ro": "Moldova"
+  },
+  "country.Romania": {
+    "en": "Romania",
+    "uk": "Румунія",
+    "ru": "Румыния",
+    "ro": "România"
+  },
+  "country.Hungary": {
+    "en": "Hungary",
+    "uk": "Угорщина",
+    "ru": "Венгрия",
+    "hu": "Magyarország"
+  },
+  "country.Slovakia": {
+    "en": "Slovakia",
+    "uk": "Словаччина",
+    "ru": "Словакия",
+    "sk": "Slovensko"
+  },
+  "country.Lithuania": {
+    "en": "Lithuania",
+    "uk": "Литва",
+    "ru": "Литва",
+    "lt": "Lietuva"
+  },
   "country.Sweden": {
     "en": "Sweden",
     "uk": "Швеція",
     "ru": "Швеция",
     "sv": "Sverige"
+  },
+  "country.Germany": {
+    "en": "Germany",
+    "uk": "Німеччина",
+    "ru": "Германия",
+    "de": "Deutschland"
+  },
+  "country.Czechia": {
+    "en": "Czechia",
+    "uk": "Чехія",
+    "ru": "Чехия",
+    "cs": "Česko"
+  },
+  "country.Austria": {
+    "en": "Austria",
+    "uk": "Австрія",
+    "ru": "Австрия",
+    "de": "Österreich"
+  },
+  "country.Slovenia": {
+    "en": "Slovenia",
+    "uk": "Словенія",
+    "ru": "Словения",
+    "sl": "Slovenija"
+  },
+  "country.Croatia": {
+    "en": "Croatia",
+    "uk": "Хорватія",
+    "ru": "Хорватия",
+    "hr": "Hrvatska"
+  },
+  "country.Serbia": {
+    "en": "Serbia",
+    "uk": "Сербія",
+    "ru": "Сербия",
+    "sr": "Србија"
+  },
+  "country.Bulgaria": {
+    "en": "Bulgaria",
+    "uk": "Болгарія",
+    "ru": "Болгария",
+    "bg": "България"
+  },
+  "country.Latvia": {
+    "en": "Latvia",
+    "uk": "Латвія",
+    "ru": "Латвия",
+    "lv": "Latvija"
+  },
+  "country.Estonia": {
+    "en": "Estonia",
+    "uk": "Естонія",
+    "ru": "Эстония",
+    "et": "Eesti"
+  },
+  "country.Finland": {
+    "en": "Finland",
+    "uk": "Фінляндія",
+    "ru": "Финляндия",
+    "fi": "Suomi"
+  },
+  "country.Norway": {
+    "en": "Norway",
+    "uk": "Норвегія",
+    "ru": "Норвегия",
+    "nn": "Norge"
+  },
+  "country.Denmark": {
+    "en": "Denmark",
+    "uk": "Данія",
+    "ru": "Дания",
+    "da": "Danmark"
+  },
+  "country.Netherlands": {
+    "en": "Netherlands",
+    "uk": "Нідерланди",
+    "ru": "Нидерланды",
+    "nl": "Nederland"
+  },
+  "country.Belgium": {
+    "en": "Belgium",
+    "uk": "Бельгія",
+    "ru": "Бельгия",
+    "fr": "Belgique"
+  },
+  "country.Luxembourg": {
+    "en": "Luxembourg",
+    "uk": "Люксембург",
+    "ru": "Люксембург",
+    "de": "Luxemburg"
+  },
+  "country.France": {
+    "en": "France",
+    "uk": "Франція",
+    "ru": "Франция",
+    "fr": "France"
+  },
+  "country.Switzerland": {
+    "en": "Switzerland",
+    "uk": "Швейцарія",
+    "ru": "Швейцария",
+    "de": "Schweiz"
+  },
+  "country.Lichtenstein": {
+    "en": "Lichtenstein",
+    "uk": "Ліхтенштейн",
+    "ru": "Лихтенштейн",
+    "de": "Lichtenstein"
+  },
+  "country.Italy": {
+    "en": "Italy",
+    "uk": "Італія",
+    "ru": "Италия",
+    "it": "Italia"
+  },
+  "country.Bosnia and Herzegovina": {
+    "en": "Bosnia and Herzegovina",
+    "uk": "Боснія і Герцеговина",
+    "ru": "Босния и Герцеговина",
+    "bs": "Bosna i Hercegovina"
+  },
+  "country.Montenegro": {
+    "en": "Montenegro",
+    "uk": "Чорногорія",
+    "ru": "Черногория",
+    "sr": "Црна Гора"
+  },
+  "country.Albania": {
+    "en": "Albania",
+    "uk": "Албанія",
+    "ru": "Албания",
+    "sq": "Shqipëria"
+  },
+  "country.North Macedonia": {
+    "en": "North Macedonia",
+    "uk": "Північна Македонія",
+    "ru": "Северная Македония",
+    "mk": "Северна Македонија"
+  },
+  "country.Greece": {
+    "en": "Greece",
+    "uk": "Греція",
+    "ru": "Греция",
+    "el": "Ελλάδα"
+  },
+  "country.Turkey": {
+    "en": "Turkey",
+    "uk": "Туреччина",
+    "ru": "Турция",
+    "tr": "Türkiye"
+  },
+  "country.United Kingdom": {
+    "en": "United Kingdom",
+    "uk": "Об'єднане Королівство",
+    "ru": "Соединенное Королевство"
+  },
+  "country.Ireland": {
+    "en": "Ireland",
+    "uk": "Ірландія",
+    "ru": "Ирландия",
+    "ga": "Éireann"
+  },
+  "country.Spain": {
+    "en": "Spain",
+    "uk": "Іспанія",
+    "ru": "Spagna",
+    "es": "España"
+  },
+  "country.Portugal": {
+    "en": "Portugal",
+    "uk": "Португалія",
+    "ru": "Португалия",
+    "pt": "Portugal"
+  },
+  "country.Cyprus": {
+    "en": "Cyprus",
+    "uk": "Кіпр",
+    "ru": "Кипр",
+    "el": "Κύπρος"
   },
   "point.Lviv": {
     "en": "Lviv",
