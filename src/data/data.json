@@ -248,6 +248,17 @@
       },
       "info": []
     },
+    "Nynäshamn": {
+      "countries": [
+        "Sweden"
+      ],
+      "nameCode": "point.Nynäshamn",
+      "coordinates": {
+        "x": 58.918215,
+        "y": 17.944977
+      },
+      "info": []
+    },
     "Stockholm": {
       "countries": [
         "Sweden"

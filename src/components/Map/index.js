@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   geoMercator,
   geoPath,
@@ -6,7 +6,13 @@ import {
   zoom,
 } from 'd3'
 import { feature } from 'topojson-client'
-import { debounce } from '../../utils'
+import {
+  debounce,
+  formatConnections,
+  getConnectionPath,
+} from '../../utils'
+import { PointInfo } from '../PointInfo'
+import { CountryInfo } from '../CountryInfo'
 
 import topology from '../../data/topology.json'
 
@@ -14,8 +20,12 @@ import './index.css'
 
 const DEFAULT_SCALE = 0.6
 const POINT_RADIUS = 10
+const CONNECTION_WIDTH = 10
 
-const Map = ({ points, connections }) => {
+const Map = ({ countries, points, connections }) => {
+  const [activePoint, setActivePoint] = useState(null)
+  const [activeCountry, setActiveCountry] = useState(null)
+
   useEffect(() => {
     const width = window.screen.width
     const height = window.screen.height
@@ -33,16 +43,38 @@ const Map = ({ points, connections }) => {
     const path = geoPath()
       .projection(projection)
 
-    const g = svg.append('g')
-
-    g.selectAll('path')
+    // Render countries
+    const map = svg.append('g')
+    map.selectAll('path')
       .data(feature(topology, topology.objects.countries).features)
       .enter()
       .append('path')
-      .attr('class', 'country')
+      .attr('class', d => `country country-${d.properties?.name}`)
       .attr('d', path)
+      .style('cursor', d => d.properties?.name ? 'pointer' : 'default')
+      .style('fill', d => d.properties?.name ? '#aed5eb' : '#ececec')
+      .on('click', (event, d) => {
+        setActiveCountry(countries[d.properties?.name])
+      })
 
-    g.selectAll('circle')
+    // Render connections
+    const routes = svg.append('g')
+    const groups = formatConnections(connections, points, projection)
+    Object.entries(groups).forEach(([key, group]) => {
+      routes.selectAll(`.connection-${key}`)
+        .data(group)
+        .enter()
+        .append('path')
+        .attr('class', `connection connection-${key}`)
+        .attr('d', (connection, index) => getConnectionPath(connection, index, group.length))
+        .style('fill', 'none')
+        .style('stroke', d => d.free ? '#29a736' : '#d53023')
+        .style('stroke-width', CONNECTION_WIDTH)
+    })
+
+    // Render points
+    const cities = svg.append('g')
+    cities.selectAll('circle')
       .data(Object.values(points))
       .enter()
       .append('circle')
@@ -51,24 +83,50 @@ const Map = ({ points, connections }) => {
       .attr('cy', d => projection([d.coordinates.y, d.coordinates.x])[1])
       .attr('r', POINT_RADIUS)
       .style('fill', '#006fab')
+      .style('stroke', '#ffffff')
+      .style('stroke-width', 2)
+      .on('click', (event, d) => setActivePoint(d))
 
     const zoomFn = zoom()
       .scaleExtent([1, 5])
       .on('zoom', debounce((event) => {
-        console.log('zoom', event)
-        g.selectAll('path')
+        map.selectAll('path')
           .attr('transform', event.transform)
 
-        g.selectAll('circle')
-          .attr('transform', event.transform)
-          .attr('r', POINT_RADIUS / event.transform.k)
+        const { x, y, k } = event.transform
+        cities.selectAll('circle')
+          .attr('cx', d => x + k * (projection([d.coordinates.y, d.coordinates.x])[0]))
+          .attr('cy', d => y + k * (projection([d.coordinates.y, d.coordinates.x])[1]))
+
+        Object.entries(groups).forEach(([key, group]) => {
+          routes.selectAll(`.connection-${key}`)
+            .attr('d', (connection, index) => getConnectionPath(connection, index, group.length, event.transform))
+        })
       }))
 
     svg.call(zoomFn)
-  }, [points])
+  }, [countries, points, connections])
 
   return (
-    <div id="map" />
+    <>
+      <div id="map" />
+      {activePoint && (
+        <PointInfo
+          {...activePoint}
+          onClose={() => {
+            setActivePoint(null)
+          }}
+        />
+      )}
+      {activeCountry && (
+        <CountryInfo
+          {...activeCountry}
+          onClose={() => {
+            setActiveCountry(null)
+          }}
+        />
+      )}
+    </>
   )
 }
 
