@@ -321,7 +321,7 @@
       "end": "Gdansk",
       "typeCode": "bus",
       "textCode": "Warsaw.Gdansk.flixbus",
-      "free": true,
+      "free": false,
       "info": [
         {
           "typeCode": "usefulLink",
