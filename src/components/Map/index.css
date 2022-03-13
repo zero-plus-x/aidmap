@@ -5,8 +5,7 @@
 }
 
 .country {
-  stroke: black;
   strokeLinecap: round;
   strokeLinejoin: round;
-  strokeWidth: .1;
+  strokeWidth: .05;
 }

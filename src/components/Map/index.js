@@ -52,7 +52,8 @@ const Map = ({ countries, points, connections }) => {
       .attr('class', d => `country country-${d.properties?.name}`)
       .attr('d', path)
       .style('cursor', d => d.properties?.name ? 'pointer' : 'default')
-      .style('fill', d => d.properties?.name ? '#aed5eb' : '#ececec')
+      .style('fill', d => d.properties?.name ? '#dff1fb' : '#ececec')
+      .style('stroke', d => d.properties?.name ? '#006fab' : '#999999')
       .on('click', (event, d) => {
         setActiveCountry(countries[d.properties?.name])
       })
