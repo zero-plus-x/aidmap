@@ -11,6 +11,7 @@ import {
   Typography,
 } from '@mui/material'
 import { useTranslation } from '../useTranslation'
+import { LocaleSelector } from './LocaleSelector'
 
 export const PointInfo = ({
   onClose,
@@ -36,6 +37,7 @@ export const PointInfo = ({
           <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
             {t(nameCode)}
           </Typography>
+          <LocaleSelector />
         </Toolbar>
       </AppBar>
       <List>
