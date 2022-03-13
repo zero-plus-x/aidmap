@@ -36,6 +36,8 @@ const renderMap = ({
     .scale([width / scale])
 
   const svg = select(container)
+    .attr('width', width)
+    .attr('height', height)
 
   svg.selectAll('*').remove()
 
@@ -105,6 +107,13 @@ const renderMap = ({
     }))
 
   svg.call(zoomFn)
+
+  // TODO: debug
+  svg.append('text')
+    .attr('x', 20)
+    .attr('y', 20)
+    .style('fill', 'red')
+    .text(`width: ${width}, height: ${height}`)
 }
 
 export const useMap = ({
