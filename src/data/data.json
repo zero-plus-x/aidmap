@@ -9,7 +9,9 @@
           "textCode": "Ukraine.usefulLink.mfa",
           "link": "https://mfa.gov.ua"
         }
-      ]
+      ],
+      "center": [49.468373, 30.340141],
+      "zoom": 1
     },
     "Poland": {
       "nameCode": "country.Poland",
@@ -19,92 +21,128 @@
           "typeCode": "usefulFact",
           "textCode": "Poland.usefulFact.takesInRefugees"
         }
-      ]
+      ],
+      "center": [52.268392, 19.617486],
+      "zoom": 1
     },
     "Moldova": {
       "nameCode": "country.Moldova",
       "localLanguage": "ro",
-      "info": []
+      "info": [],
+      "center": [47.295922, 28.619421],
+      "zoom": 7
     },
     "Romania": {
       "nameCode": "country.Romania",
       "localLanguage": "ro",
-      "info": []
+      "info": [],
+      "center": [46.077179, 24.785500],
+      "zoom": 1
     },
     "Hungary": {
       "nameCode": "country.Hungary",
       "localLanguage": "hu",
-      "info": []
+      "info": [],
+      "center": [47.256303, 19.334865],
+      "zoom": 1
     },
     "Slovakia": {
       "nameCode": "country.Slovakia",
       "localLanguage": "sk",
-      "info": []
+      "info": [],
+      "center": [48.536796, 19.194817],
+      "zoom": 2
     },
     "Lithuania": {
       "nameCode": "country.Lithuania",
       "localLanguage": "lt",
-      "info": []
+      "info": [],
+      "center": [55.224395, 24.056117],
+      "zoom": 1
     },
     "Sweden": {
       "nameCode": "country.Sweden",
       "localLanguage": "sv",
-      "info": []
+      "info": [],
+      "center": [63.819079, 16.870837],
+      "zoom": 1
     },
     "Germany": {
       "nameCode": "country.Germany",
       "localLanguage": "de",
-      "info": []
+      "info": [],
+      "center": [51.416386, 10.202253],
+      "zoom": 1
     },
     "Czechia": {
       "nameCode": "country.Czechia",
       "localLanguage": "cs",
-      "info": []
+      "info": [],
+      "center": [49.772012, 14.944804],
+      "zoom": 1
     },
     "Austria": {
       "nameCode": "country.Austria",
       "localLanguage": "de",
-      "info": []
+      "info": [],
+      "center": [47.335576, 14.143087],
+      "zoom": 1
     },
     "Slovenia": {
       "nameCode": "country.Slovenia",
       "localLanguage": "sl",
-      "info": []
+      "info": [],
+      "center": [46.162877, 14.651565],
+      "zoom": 8
     },
     "Croatia": {
       "nameCode": "country.Croatia",
       "localLanguage": "hr",
-      "info": []
+      "info": [],
+      "center": [45.490056, 17.041823],
+      "zoom": 4
     },
     "Serbia": {
       "nameCode": "country.Serbia",
       "localLanguage": "sr",
-      "info": []
+      "info": [],
+      "center": [43.953888, 20.823628],
+      "zoom": 1
     },
     "Bulgaria": {
       "nameCode": "country.Bulgaria",
       "localLanguage": "bg",
-      "info": []
+      "info": [],
+      "center": [42.388323, 25.307820],
+      "zoom": 1
     },
     "Latvia": {
       "nameCode": "country.Latvia",
       "localLanguage": "lv",
-      "info": []
+      "info": [],
+      "center": [56.716377, 25.850113],
+      "zoom": 1
     },
     "Estonia": {
       "nameCode": "country.Estonia",
       "localLanguage": "et",
-      "info": []
+      "info": [],
+      "center": [58.876710, 25.585984],
+      "zoom": 1
     },
     "Finland": {
       "nameCode": "country.Finland",
       "localLanguage": "fi",
-      "info": []
+      "info": [],
+      "center": [62.304459, 25.990773],
+      "zoom": 1
     },
     "Norway": {
       "nameCode": "country.Norway",
       "localLanguage": "nn",
-      "info": []
+      "info": [],
+      "center": [60.808742, 8.807418],
+      "zoom": 1
     },
     "Denmark": {
       "nameCode": "country.Denmark",

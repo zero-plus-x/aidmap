@@ -7,7 +7,7 @@ import {
 } from 'd3'
 import {
   debounce,
-  // getZoomLevel,
+  getZoomLevel,
 } from '../utils'
 import { feature } from 'topojson-client'
 
@@ -19,6 +19,7 @@ const renderMap = ({
   container,
   countries,
   setActiveCountry,
+  t,
 }) => {
   const width = window.screen.width
   const height = window.screen.height
@@ -38,10 +39,12 @@ const renderMap = ({
   const path = geoPath()
     .projection(projection)
 
+  const features = feature(topology, topology.objects.countries).features
+
   // Render countries
   const map = svg.append('g')
   map.selectAll('path')
-    .data(feature(topology, topology.objects.countries).features)
+    .data(features)
     .enter()
     .append('path')
     .attr('class', d => `country country-${d.properties?.name}`)
@@ -51,32 +54,33 @@ const renderMap = ({
     .style('stroke', d => d.properties?.name ? '#006fab' : '#999999')
     .on('click', (event, d) => {
       setActiveCountry(countries[d.properties?.name])
+      console.log(d.properties?.name)
     })
+
+  map.selectAll('text')
+    .data(Object.values(countries))
+    .enter()
+    .append('text')
+    .text(d => t(d.nameCode))
+    .attr('x', d => d.center ? projection([d.center[1], d.center[0]])[0] : 0)
+    .attr('y', d => d.center ? projection([d.center[1], d.center[0]])[1] : 0)
+    .attr('class', 'country-label')
+    .style('opacity', d => d.zoom === 1 ? 1 : 0)
 
   const zoomFn = zoom()
     .scaleExtent([1, 50])
     .translateExtent([[-400,-300],[600,1000]])
     .on('zoom', debounce((event) => {
-      // const { x, y, k } = event.transform
-      // const zoomLevel = getZoomLevel(k)
-
+      const { x, y, k } = event.transform
+      const zoomLevel = getZoomLevel(k)
+      console.log(zoomLevel)
       map.selectAll('path')
         .attr('transform', event.transform)
 
-      /* cities.selectAll('circle')
-        .attr('cx', d => x + k * (projection([d.coordinates.y, d.coordinates.x])[0]))
-        .attr('cy', d => y + k * (projection([d.coordinates.y, d.coordinates.x])[1]))
-        .attr('r', () => {
-          if (zoomLevel > 10) return POINT_RADIUS + 15
-          if (zoomLevel > 5) return POINT_RADIUS + 5
-          if (zoomLevel > 3) return POINT_RADIUS + 2
-          return POINT_RADIUS
-        })
-        .style('stroke-width', () => {
-          if (zoomLevel > 10) return 4
-          if (zoomLevel > 5) return 3
-          return 2
-        }) */
+      map.selectAll('text')
+        .attr('x', d => d.center ? x + k * projection([d.center[1], d.center[0]])[0] : 0)
+        .attr('y', d => d.center ? y + k * projection([d.center[1], d.center[0]])[1] : 0)
+        .style('opacity', d => d.zoom <= zoomLevel ? 1 : 0)
     }))
 
   svg.call(zoomFn)
@@ -86,6 +90,7 @@ export const useMap = ({
   container,
   countries,
   setActiveCountry,
+  t,
 }) => {
   useEffect(() => {
     const updateMap = () => {
@@ -93,6 +98,7 @@ export const useMap = ({
         container,
         countries,
         setActiveCountry,
+        t,
       })
     }
 

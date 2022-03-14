@@ -2,18 +2,20 @@ import React, { useState } from 'react'
 
 import { CountryInfo } from '../CountryInfo'
 import { useMap } from '../../hooks/useMap'
+import { useTranslation } from '../../useTranslation'
 
 import './index.css'
 
-const Map = ({ countries, points, connections }) => {
+const Map = ({ countries }) => {
   const [activeCountry, setActiveCountry] = useState(null)
+
+  const t = useTranslation()
 
   useMap({
     container: '#map',
     countries,
-    points,
-    connections,
     setActiveCountry,
+    t,
   })
 
   return (

@@ -9,3 +9,11 @@
   strokeLinejoin: round;
   strokeWidth: .05;
 }
+
+.country-label {
+  fill: #006fab;
+  font-size: 12px;
+  font-weight: 500;
+  text-anchor: middle;
+  text-transform: uppercase;
+}
