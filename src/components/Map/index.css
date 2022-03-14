@@ -5,9 +5,13 @@
 }
 
 .country {
-  strokeLinecap: round;
-  strokeLinejoin: round;
-  strokeWidth: .05;
+  strokelinecap: round;
+  strokelinejoin: round;
+  strokewidth: 0.05;
+}
+
+.country:active {
+  fill: hsl(201, 100%, 82%) !important;
 }
 
 .country-label {
@@ -16,4 +20,5 @@
   font-weight: 500;
   text-anchor: middle;
   text-transform: uppercase;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
 }
