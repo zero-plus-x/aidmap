@@ -11,9 +11,20 @@ export const CountryInfo = ({ activeCountryName, onClose }) => {
   const t = useTranslation()
   const locale = useLocale()
   const [countryMd, setCountryMd] = useState('')
+  const [emptyMd, setEmptyMd] = useState('')
 
   const countryData = data.countries[activeCountryName]
   const { nameCode } = countryData
+
+  // TODO: move this out somewhere, to run once for all countries
+  useEffect(() => {
+    import(`../markdown/empty.md`).then((res) => {
+      fetch(res.default)
+        .then((res) => res.text())
+        .then((res) => setEmptyMd(res))
+        .catch((err) => console.log(err))
+    })
+  })
 
   useEffect(() => {
     import(`../markdown/${activeCountryName}/${locale}.md`)
@@ -39,7 +50,9 @@ export const CountryInfo = ({ activeCountryName, onClose }) => {
           <LocaleSelector />
         </Toolbar>
       </AppBar>
-      <List style={{ padding: '10px 20px' }}>{countryMd && <Markdown>{countryMd}</Markdown>}</List>
+      <List style={{ padding: '10px 20px' }}>
+        <Markdown>{countryMd || emptyMd}</Markdown>
+      </List>
     </Dialog>
   )
 }
