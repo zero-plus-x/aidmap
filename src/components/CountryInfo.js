@@ -36,6 +36,10 @@ export const CountryInfo = () => {
       .catch((err) => console.log(err))
   })
 
+  useEffect(() => {
+    setCountryMd('')
+  }, [activeCountryName, locale])
+
   if (!activeCountryName) {
     return null
   }
