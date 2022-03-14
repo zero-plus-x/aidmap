@@ -31,7 +31,7 @@ export const CountryInfo = ({ activeCountryName, onClose }) => {
       <AppBar sx={{ position: 'relative' }}>
         <Toolbar>
           <IconButton edge="start" color="inherit" onClick={onClose} aria-label="close">
-            <Close onClick={onClose} />
+            <Close />
           </IconButton>
           <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
             {t(nameCode)}
