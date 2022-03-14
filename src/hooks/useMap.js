@@ -109,5 +109,6 @@ export const useMap = ({
     container,
     countries,
     setActiveCountry,
+    t,
   ])
 }
