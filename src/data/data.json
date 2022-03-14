@@ -57,7 +57,7 @@
       "nameCode": "country.Lithuania",
       "localLanguage": "lt",
       "info": [],
-      "center": [56.716377, 25.850113],
+      "center": [55.224395, 24.056117],
       "zoom": 1
     },
     "Sweden": {
@@ -120,7 +120,7 @@
       "nameCode": "country.Latvia",
       "localLanguage": "lv",
       "info": [],
-      "center": [55.224395, 24.056117],
+      "center": [56.716377, 25.850113],
       "zoom": 1
     },
     "Estonia": {
