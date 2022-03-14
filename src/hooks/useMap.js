@@ -90,12 +90,14 @@ const renderMap = ({
     .on('click', (event, d) => setActivePoint(d))
 
   const zoomFn = zoom()
-    .scaleExtent([1, 5])
+    .scaleExtent([1, 50])
+    .translateExtent([[-400,-300],[600,1000]])
     .on('zoom', debounce((event) => {
+      const { x, y, k } = event.transform
+
       map.selectAll('path')
         .attr('transform', event.transform)
 
-      const { x, y, k } = event.transform
       cities.selectAll('circle')
         .attr('cx', d => x + k * (projection([d.coordinates.y, d.coordinates.x])[0]))
         .attr('cy', d => y + k * (projection([d.coordinates.y, d.coordinates.x])[1]))
@@ -107,13 +109,6 @@ const renderMap = ({
     }))
 
   svg.call(zoomFn)
-
-  // TODO: debug
-  svg.append('text')
-    .attr('x', 20)
-    .attr('y', 20)
-    .style('fill', 'red')
-    .text(`width: ${width}, height: ${height}`)
 }
 
 export const useMap = ({
