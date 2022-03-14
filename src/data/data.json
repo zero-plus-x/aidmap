@@ -147,97 +147,135 @@
     "Denmark": {
       "nameCode": "country.Denmark",
       "localLanguage": "da",
-      "info": []
+      "info": [],
+      "center": [55.559497, 9.336711],
+      "zoom": 5
     },
     "Netherlands": {
       "nameCode": "country.Netherlands",
       "localLanguage": "nl",
-      "info": []
+      "info": [],
+      "center": [52.095512, 5.537388],
+      "zoom": 5
     },
     "Belgium": {
       "nameCode": "country.Belgium",
       "localLanguage": "fr",
-      "info": []
+      "info": [],
+      "center": [50.798063, 4.387649],
+      "zoom": 5
     },
     "Luxembourg": {
       "nameCode": "country.Luxembourg",
       "localLanguage": "de",
-      "info": []
+      "info": [],
+      "center": [49.717690, 6.156915],
+      "zoom": 5
     },
     "France": {
       "nameCode": "country.France",
       "localLanguage": "fr",
-      "info": []
+      "info": [],
+      "center": [47.793938, 2.549215],
+      "zoom": 1
     },
     "Switzerland": {
       "nameCode": "country.Switzerland",
       "localLanguage": "de",
-      "info": []
+      "info": [],
+      "center": [46.673769, 8.322175],
+      "zoom": 4
     },
     "Lichtenstein": {
       "nameCode": "country.Lichtenstein",
       "localLanguage": "de",
-      "info": []
+      "info": [],
+      "center": [47.128230, 9.564915],
+      "zoom": 15
     },
     "Italy": {
       "nameCode": "country.Italy",
       "localLanguage": "it",
-      "info": []
+      "info": [],
+      "center": [45.142093, 9.877608],
+      "zoom": 1
     },
     "Bosnia and Herzegovina": {
       "nameCode": "country.Bosnia and Herzegovina",
       "localLanguage": "bs",
-      "info": []
+      "info": [],
+      "center": [44.458397, 17.665440],
+      "zoom": 8
     },
     "Montenegro": {
       "nameCode": "country.Montenegro",
       "localLanguage": "sr",
-      "info": []
+      "info": [],
+      "center": [42.847913, 19.318576],
+      "zoom": 9
     },
     "Albania": {
       "nameCode": "country.Albania",
       "localLanguage": "sq",
-      "info": []
+      "info": [],
+      "center": [40.535197, 20.148769],
+      "zoom": 9
     },
     "North Macedonia": {
       "nameCode": "country.North Macedonia",
       "localLanguage": "mk",
-      "info": []
+      "info": [],
+      "center": [41.544556, 21.71045],
+      "zoom": 9
     },
     "Greece": {
       "nameCode": "country.Greece",
       "localLanguage": "el",
-      "info": []
+      "info": [],
+      "center": [39.369406, 21.608304],
+      "zoom": 1
     },
     "Turkey": {
       "nameCode": "country.Turkey",
       "localLanguage": "tr",
-      "info": []
+      "info": [],
+      "center": [38.972245, 31.433019],
+      "zoom": 1
     },
     "United Kingdom": {
       "nameCode": "country.United Kingdom",
       "localLanguage": "en",
-      "info": []
+      "info": [],
+      "center": [52.276648, -1.603615],
+      "zoom": 1
     },
     "Ireland": {
       "nameCode": "country.Ireland",
       "localLanguage": "ga",
-      "info": []
+      "info": [],
+      "center": [52.950697, -7.734385],
+      "zoom": 1
     },
     "Spain": {
       "nameCode": "country.Spain",
       "localLanguage": "es",
-      "info": []
+      "info": [],
+      "center": [40.799275, -2.070943],
+      "zoom": 1
     },
     "Portugal": {
       "nameCode": "country.Portugal",
       "localLanguage": "pt",
-      "info": []
+      "info": [],
+      "center": [38.915027, -8.231368],
+      "zoom": 1
     },
     "Cyprus": {
       "nameCode": "country.Cyprus",
       "localLanguage": "el",
-      "info": []
+      "info": [],
+      "center": [35.025120, 33.049612],
+      "zoom": 2
     }
   },
   "points": {

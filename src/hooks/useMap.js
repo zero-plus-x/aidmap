@@ -54,7 +54,6 @@ const renderMap = ({
     .style('stroke', d => d.properties?.name ? '#006fab' : '#999999')
     .on('click', (event, d) => {
       setActiveCountry(countries[d.properties?.name])
-      console.log(d.properties?.name)
     })
 
   map.selectAll('text')
@@ -73,7 +72,7 @@ const renderMap = ({
     .on('zoom', debounce((event) => {
       const { x, y, k } = event.transform
       const zoomLevel = getZoomLevel(k)
-      console.log(zoomLevel)
+
       map.selectAll('path')
         .attr('transform', event.transform)
 
