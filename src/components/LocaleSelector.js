@@ -40,7 +40,7 @@ export const LocaleSelector = () => {
       <Menu
         anchorEl={anchor}
         open={!!anchor}
-        onClose={handleClose}
+        onClose={() => handleClose(null)}
       >
         {LANGUAGES.map((lang) => (
           <MenuItem
