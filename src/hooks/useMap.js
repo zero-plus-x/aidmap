@@ -4,30 +4,21 @@ import {
   geoPath,
   select,
   zoom,
-  arc,
 } from 'd3'
 import {
   debounce,
-  formatConnections,
-  getConnectionCenter,
-  getConnectionPath,
-  getZoomLevel,
+  // getZoomLevel,
 } from '../utils'
 import { feature } from 'topojson-client'
 
 import topology from '../data/topology.json'
 
 const DEFAULT_SCALE = 1.4
-const POINT_RADIUS = 10
-const CONNECTION_WIDTH = 10
 
 const renderMap = ({
   container,
   countries,
-  points,
-  connections,
   setActiveCountry,
-  setActivePoint,
 }) => {
   const width = window.screen.width
   const height = window.screen.height
@@ -62,47 +53,17 @@ const renderMap = ({
       setActiveCountry(countries[d.properties?.name])
     })
 
-  // Render connections
-  const routes = svg.append('g')
-  const groups = formatConnections(connections, points, projection)
-  Object.entries(groups).forEach(([key, group]) => {
-    routes.selectAll(`.connection-${key}`)
-      .data(group)
-      .enter()
-      .append('path')
-      .attr('class', `connection connection-${key}`)
-      .attr('d', (connection, index) => getConnectionPath(connection, index, group.length))
-      .style('fill', 'none')
-      .style('stroke', d => d.free ? '#29a736' : '#d53023')
-      .style('stroke-width', CONNECTION_WIDTH)
-  })
-
-  // Render points
-  const cities = svg.append('g')
-  cities.selectAll('circle')
-    .data(Object.values(points))
-    .enter()
-    .append('circle')
-    .attr('class', 'point')
-    .attr('cx', d => projection([d.coordinates.y, d.coordinates.x])[0])
-    .attr('cy', d => projection([d.coordinates.y, d.coordinates.x])[1])
-    .attr('r', POINT_RADIUS)
-    .style('fill', '#006fab')
-    .style('stroke', '#ffffff')
-    .style('stroke-width', 2)
-    .on('click', (event, d) => setActivePoint(d))
-
   const zoomFn = zoom()
     .scaleExtent([1, 50])
     .translateExtent([[-400,-300],[600,1000]])
     .on('zoom', debounce((event) => {
-      const { x, y, k } = event.transform
-      const zoomLevel = getZoomLevel(k)
+      // const { x, y, k } = event.transform
+      // const zoomLevel = getZoomLevel(k)
 
       map.selectAll('path')
         .attr('transform', event.transform)
 
-      cities.selectAll('circle')
+      /* cities.selectAll('circle')
         .attr('cx', d => x + k * (projection([d.coordinates.y, d.coordinates.x])[0]))
         .attr('cy', d => y + k * (projection([d.coordinates.y, d.coordinates.x])[1]))
         .attr('r', () => {
@@ -115,32 +76,7 @@ const renderMap = ({
           if (zoomLevel > 10) return 4
           if (zoomLevel > 5) return 3
           return 2
-        })
-
-      Object.entries(groups).forEach(([key, group]) => {
-        routes.selectAll(`.connection-${key}`)
-          .attr('d', (connection, index) => getConnectionPath(connection, index, group.length, event.transform))
-
-        if (zoomLevel > 6) {
-          routes.selectAll(`.connection-mark-${key}`)
-            .data(group)
-            .enter()
-            .append('circle')
-            .attr('class', `connection-mark connection-mark-${key}`)
-            .attr('cx', (connection, index) => {
-              const { cx } = getConnectionCenter(connection, index, group.length, event.transform)
-
-              console.log(getConnectionCenter(connection, index, group.length, event.transform))
-              return cx
-            })
-            .attr('cy', (connection, index) => {
-              const { cy } = getConnectionCenter(connection, index, group.length, event.transform)
-              return cy
-            })
-            .attr('r', 10)
-            .style('fill', '#ffffff')
-        }
-      })
+        }) */
     }))
 
   svg.call(zoomFn)
@@ -149,20 +85,14 @@ const renderMap = ({
 export const useMap = ({
   container,
   countries,
-  points,
-  connections,
   setActiveCountry,
-  setActivePoint,
 }) => {
   useEffect(() => {
     const updateMap = () => {
       renderMap({
         container,
         countries,
-        points,
-        connections,
         setActiveCountry,
-        setActivePoint,
       })
     }
 
@@ -173,9 +103,6 @@ export const useMap = ({
   }, [
     container,
     countries,
-    points,
-    connections,
     setActiveCountry,
-    setActivePoint,
   ])
 }
