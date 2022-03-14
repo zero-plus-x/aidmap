@@ -5,13 +5,12 @@ import { useTranslation } from '../../useTranslation'
 
 import './index.css'
 
-export const Map = ({ countries, setActiveCountryName }) => {
+export const Map = ({ countries }) => {
   const t = useTranslation()
 
   useMap({
     container: '#map',
     countries,
-    setActiveCountryName,
     t,
   })
 

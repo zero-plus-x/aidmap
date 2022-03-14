@@ -4,6 +4,7 @@ import { debounce, getZoomLevel } from '../utils'
 import { feature } from 'topojson-client'
 
 import topology from '../data/topology.json'
+import { useSetActiveCountryName } from '../activeCountryNameContext'
 
 const DEFAULT_SCALE = 1.4
 
@@ -78,7 +79,9 @@ const renderMap = ({ container, countries, setActiveCountryName, t }) => {
   svg.call(zoomFn)
 }
 
-export const useMap = ({ container, countries, setActiveCountryName, t }) => {
+export const useMap = ({ container, countries, t }) => {
+  const setActiveCountryName = useSetActiveCountryName()
+
   useEffect(() => {
     const updateMap = () => {
       renderMap({

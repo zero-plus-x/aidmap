@@ -6,17 +6,16 @@ import { useTranslation } from '../useTranslation'
 import { LocaleSelector } from './LocaleSelector'
 import { useEffect, useState } from 'react'
 import { useLocale } from '../localeContext'
+import { useActiveCountryName, useSetActiveCountryName } from '../activeCountryNameContext'
 
-export const CountryInfo = ({ activeCountryName, onClose }) => {
+export const CountryInfo = () => {
   const t = useTranslation()
   const locale = useLocale()
+  const activeCountryName = useActiveCountryName()
+  const setActiveCountryName = useSetActiveCountryName()
   const [countryMd, setCountryMd] = useState('')
   const [emptyMd, setEmptyMd] = useState('')
 
-  const countryData = data.countries[activeCountryName]
-  const { nameCode } = countryData
-
-  // TODO: move this out somewhere, to run once for all countries
   useEffect(() => {
     import(`../markdown/empty.md`).then((res) => {
       fetch(res.default)
@@ -24,7 +23,7 @@ export const CountryInfo = ({ activeCountryName, onClose }) => {
         .then((res) => setEmptyMd(res))
         .catch((err) => console.log(err))
     })
-  })
+  }, [])
 
   useEffect(() => {
     import(`../markdown/${activeCountryName}/${locale}.md`)
@@ -37,11 +36,25 @@ export const CountryInfo = ({ activeCountryName, onClose }) => {
       .catch((err) => console.log(err))
   })
 
+  if (!activeCountryName) {
+    return null
+  }
+
+  const countryData = data.countries[activeCountryName]
+  const { nameCode } = countryData
+
   return (
     <Dialog fullScreen open>
       <AppBar sx={{ position: 'relative' }}>
         <Toolbar>
-          <IconButton edge="start" color="inherit" onClick={onClose} aria-label="close">
+          <IconButton
+            edge="start"
+            color="inherit"
+            onClick={() => {
+              setActiveCountryName(null)
+            }}
+            aria-label="close"
+          >
             <Close />
           </IconButton>
           <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
