@@ -4,11 +4,14 @@ import {
   geoPath,
   select,
   zoom,
+  arc,
 } from 'd3'
 import {
   debounce,
   formatConnections,
+  getConnectionCenter,
   getConnectionPath,
+  getZoomLevel,
 } from '../utils'
 import { feature } from 'topojson-client'
 
@@ -94,6 +97,7 @@ const renderMap = ({
     .translateExtent([[-400,-300],[600,1000]])
     .on('zoom', debounce((event) => {
       const { x, y, k } = event.transform
+      const zoomLevel = getZoomLevel(k)
 
       map.selectAll('path')
         .attr('transform', event.transform)
@@ -101,10 +105,41 @@ const renderMap = ({
       cities.selectAll('circle')
         .attr('cx', d => x + k * (projection([d.coordinates.y, d.coordinates.x])[0]))
         .attr('cy', d => y + k * (projection([d.coordinates.y, d.coordinates.x])[1]))
+        .attr('r', () => {
+          if (zoomLevel > 10) return POINT_RADIUS + 15
+          if (zoomLevel > 5) return POINT_RADIUS + 5
+          if (zoomLevel > 3) return POINT_RADIUS + 2
+          return POINT_RADIUS
+        })
+        .style('stroke-width', () => {
+          if (zoomLevel > 10) return 4
+          if (zoomLevel > 5) return 3
+          return 2
+        })
 
       Object.entries(groups).forEach(([key, group]) => {
         routes.selectAll(`.connection-${key}`)
           .attr('d', (connection, index) => getConnectionPath(connection, index, group.length, event.transform))
+
+        if (zoomLevel > 6) {
+          routes.selectAll(`.connection-mark-${key}`)
+            .data(group)
+            .enter()
+            .append('circle')
+            .attr('class', `connection-mark connection-mark-${key}`)
+            .attr('cx', (connection, index) => {
+              const { cx } = getConnectionCenter(connection, index, group.length, event.transform)
+
+              console.log(getConnectionCenter(connection, index, group.length, event.transform))
+              return cx
+            })
+            .attr('cy', (connection, index) => {
+              const { cy } = getConnectionCenter(connection, index, group.length, event.transform)
+              return cy
+            })
+            .attr('r', 10)
+            .style('fill', '#ffffff')
+        }
       })
     }))
 
