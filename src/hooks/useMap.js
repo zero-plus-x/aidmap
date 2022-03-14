@@ -64,6 +64,7 @@ const renderMap = ({
     .attr('x', d => d.center ? projection([d.center[1], d.center[0]])[0] : 0)
     .attr('y', d => d.center ? projection([d.center[1], d.center[0]])[1] : 0)
     .attr('class', 'country-label')
+    .style('pointer-events', 'none')
     .style('opacity', d => d.zoom === 1 ? 1 : 0)
 
   const zoomFn = zoom()
