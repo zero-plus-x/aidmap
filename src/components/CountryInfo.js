@@ -1,31 +1,37 @@
 import { Close } from '@mui/icons-material'
-import {
-  AppBar,
-  Dialog,
-  IconButton,
-  List,
-  ListItem,
-  ListItemText,
-  Toolbar,
-  Typography,
-} from '@mui/material'
+import data from '../data/data.json'
+import { AppBar, Dialog, IconButton, List, Toolbar, Typography } from '@mui/material'
+import Markdown from 'markdown-to-jsx'
 import { useTranslation } from '../useTranslation'
 import { LocaleSelector } from './LocaleSelector'
+import { useEffect, useState } from 'react'
+import { useLocale } from '../localeContext'
 
-export const CountryInfo = ({ nameCode, info, onClose }) => {
+export const CountryInfo = ({ activeCountryName, onClose }) => {
   const t = useTranslation()
+  const locale = useLocale()
+  const [countryMd, setCountryMd] = useState('')
+
+  const countryData = data.countries[activeCountryName]
+  const { nameCode } = countryData
+
+  useEffect(() => {
+    import(`../markdown/${activeCountryName}/${locale}.md`)
+      .then((res) => {
+        fetch(res.default)
+          .then((res) => res.text())
+          .then((res) => setCountryMd(res))
+          .catch((err) => console.log(err))
+      })
+      .catch((err) => console.log(err))
+  })
 
   return (
     <Dialog fullScreen open>
       <AppBar sx={{ position: 'relative' }}>
         <Toolbar>
-          <IconButton
-            edge="start"
-            color="inherit"
-            onClick={onClose}
-            aria-label="close"
-          >
-            <Close />
+          <IconButton edge="start" color="inherit" onClick={onClose} aria-label="close">
+            <Close onClick={onClose} />
           </IconButton>
           <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
             {t(nameCode)}
@@ -33,16 +39,7 @@ export const CountryInfo = ({ nameCode, info, onClose }) => {
           <LocaleSelector />
         </Toolbar>
       </AppBar>
-      <List>
-        {info.map(({ typeCode, textCode, link }) => (
-          <ListItem key={typeCode}>
-            <ListItemText
-              primary={t(textCode)}
-              secondary={<a href={link}>{link}</a>}
-            />
-          </ListItem>
-        ))}
-      </List>
+      <List style={{ padding: '10px 20px' }}>{countryMd && <Markdown>{countryMd}</Markdown>}</List>
     </Dialog>
   )
 }

@@ -1,16 +1,28 @@
 import './App.css'
-import * as data from './data/data.json'
+import data from './data/data.json'
 
-import Map from './components/Map'
+import { useState } from 'react'
+
+import { Map } from './components/Map'
 import { TopBar } from './components/TopBar'
+import { CountryInfo } from './components/CountryInfo'
+
 import { LocaleProvider } from './localeContext'
 
 function App() {
+  const [activeCountryName, setActiveCountryName] = useState(null)
+
   return (
     <LocaleProvider>
       <div className="App">
         <TopBar />
-        <Map {...data} />
+        <Map countries={data.countries} setActiveCountryName={setActiveCountryName} />
+        {activeCountryName && (
+          <CountryInfo
+            activeCountryName={activeCountryName}
+            onClose={() => setActiveCountryName(null)}
+          />
+        )}
       </div>
     </LocaleProvider>
   )
