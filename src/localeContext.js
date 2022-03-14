@@ -1,10 +1,14 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useState, useEffect } from 'react'
 
 const localeContext = createContext()
 const localeSetContext = createContext()
 
 export const LocaleProvider = ({ children }) => {
-  const [locale, setLocale] = useState('en')
+  const [locale, setLocale] = useState(localStorage.getItem('locale') || 'en')
+
+  useEffect(() => {
+    localStorage.setItem('locale', locale)
+  }, [locale])
 
   return (
     <localeContext.Provider value={locale}>
