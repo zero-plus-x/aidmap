@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { useMap } from '../../hooks/useMap'
-import { useTranslation } from '../../useTranslation'
+import { useTranslation } from '../../hooks/useTranslation'
 
 import './index.css'
 

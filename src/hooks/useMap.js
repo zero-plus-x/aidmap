@@ -4,7 +4,7 @@ import { debounce, getZoomLevel } from '../utils'
 import { feature } from 'topojson-client'
 
 import topology from '../data/topology.json'
-import { useSetActiveCountryName } from '../activeCountryNameContext'
+import { useSetActiveCountryName } from '../contexts/activeCountryNameContext'
 
 const DEFAULT_SCALE = 1.4
 
