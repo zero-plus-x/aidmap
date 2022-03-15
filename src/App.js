@@ -4,6 +4,7 @@ import data from './data/data.json'
 import { Map } from './components/Map'
 import { TopBar } from './components/TopBar'
 import { CountryInfo } from './components/CountryInfo'
+import { FeedbackForm } from './components/FeedbackForm'
 
 import { LocaleProvider } from './localeContext'
 import { ActiveCountryNameProvider } from './activeCountryNameContext'
@@ -16,6 +17,7 @@ function App() {
           <TopBar />
           <Map countries={data.countries} />
           <CountryInfo />
+          <FeedbackForm />
         </div>
       </ActiveCountryNameProvider>
     </LocaleProvider>
