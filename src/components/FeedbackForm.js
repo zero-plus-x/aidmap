@@ -49,9 +49,11 @@ export const FeedbackForm = () => {
 
   return (
     <>
-      <Fab color="primary" aria-label="edit" sx={fabStyle} onClick={() => setIsOpen(true)}>
-        <EditIcon />
-      </Fab>
+      {!isOpen && (
+        <Fab color="primary" aria-label="edit" sx={fabStyle} onClick={() => setIsOpen(true)}>
+          <EditIcon />
+        </Fab>
+      )}
       {isOpen && (
         <Dialog fullScreen open>
           <AppBar sx={{ position: 'relative' }}>
