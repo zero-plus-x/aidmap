@@ -15,8 +15,10 @@ export const Map = ({ countries }) => {
   })
 
   return (
-    <>
-      <svg id="map" width="100%" height="700" />
-    </>
+    <svg
+      id="map"
+      width="100%"
+      height="100%"
+    />
   )
 }
