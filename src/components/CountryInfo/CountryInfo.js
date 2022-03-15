@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { Close } from '@mui/icons-material'
 import data from '../../data/data.json'
 
-import { AppBar, Dialog, IconButton, List, Toolbar, Typography } from '@mui/material'
+import { AppBar, Dialog, DialogContent, IconButton, Toolbar, Typography } from '@mui/material'
 import Markdown from 'markdown-to-jsx'
 import { useTranslation } from '../../hooks/useTranslation'
 import { LocaleSelector } from '../LocaleSelector'
@@ -72,9 +72,9 @@ export const CountryInfo = () => {
           <LocaleSelector />
         </Toolbar>
       </AppBar>
-      <List style={{ padding: '10px 20px' }}>
+      <DialogContent>
         <Markdown>{countryMd || emptyMd}</Markdown>
-      </List>
+      </DialogContent>
     </Dialog>
   )
 }
