@@ -344,5 +344,30 @@
     "en": "template",
     "uk": "template",
     "ru": "template"
+  },
+  "report_error_title": {
+    "en": "Report an error",
+    "uk": "Повідомити про помилку",
+    "ru": "Сообщить об ошибке"
+  },
+  "report_error_description": {
+    "en": "If you notice incorrect or outdated information, please contact us:",
+    "uk": "Якщо ви помітили неправильну або застарілу інформацію, будь ласка, напишіть нам:",
+    "ru": "Если вы заметили неверную или устаревшую информацию, пожалуйста, напишите нам:"
+  },
+  "report_error_message": {
+    "en": "Message",
+    "uk": "Повідомлення",
+    "ru": "Сообщение"
+  },
+  "report_error_send": {
+    "en": "Send",
+    "uk": "Відправити",
+    "ru": "Отправить"
+  },
+  "report_error_success_message": {
+    "en": "Thank you for your help!",
+    "uk": "Дякую за вашу допомогу!",
+    "ru": "Спасибо за вашу помощь!"
   }
 }
