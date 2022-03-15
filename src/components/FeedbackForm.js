@@ -13,7 +13,7 @@ import {
 import { submitForm } from '../utils'
 import EditIcon from '@mui/icons-material/Edit'
 import CloseIcon from '@mui/icons-material/Close'
-import { useTranslation } from '../useTranslation'
+import { useTranslation } from '../hooks/useTranslation'
 
 const fabStyle = {
   position: 'absolute',
@@ -49,47 +49,28 @@ export const FeedbackForm = () => {
 
   return (
     <>
-      <Fab
-        color="primary"
-        aria-label="edit"
-        sx={fabStyle}
-        onClick={() => setIsOpen(true)}
-      >
+      <Fab color="primary" aria-label="edit" sx={fabStyle} onClick={() => setIsOpen(true)}>
         <EditIcon />
       </Fab>
       {isOpen && (
         <Dialog fullScreen open>
           <AppBar sx={{ position: 'relative' }}>
             <Toolbar>
-              <IconButton
-                edge="start"
-                color="inherit"
-                onClick={handleClose}
-                aria-label="close"
-              >
+              <IconButton edge="start" color="inherit" onClick={handleClose} aria-label="close">
                 <CloseIcon />
               </IconButton>
-              <Typography
-                sx={{ ml: 2, flex: 1 }}
-                variant="h6"
-                component="div"
-                noWrap
-              >
+              <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div" noWrap>
                 {t('report_error_title')}
               </Typography>
             </Toolbar>
           </AppBar>
           <Box sx={{ padding: '10px 20px' }}>
             {isSubmitted && (
-              <Typography variant="h6">
-                {t('report_error_success_message')}
-              </Typography>
+              <Typography variant="h6">{t('report_error_success_message')}</Typography>
             )}
             {!isSubmitted && (
               <>
-                <Typography variant="h6">
-                  {t('report_error_description')}
-                </Typography>
+                <Typography variant="h6">{t('report_error_description')}</Typography>
                 <Box
                   component="form"
                   sx={{
@@ -109,11 +90,7 @@ export const FeedbackForm = () => {
                     onChange={handleChange}
                   />
                   <Box>
-                    <Button
-                      variant="contained"
-                      type="submit"
-                      disabled={isSubmitting}
-                    >
+                    <Button variant="contained" type="submit" disabled={isSubmitting}>
                       {t('report_error_send')}
                     </Button>
                   </Box>
