@@ -1,5 +1,5 @@
-import { useLocale } from './localeContext'
-import * as translations from './data/i18n.json'
+import { useLocale } from '../contexts/localeContext'
+import * as translations from '../data/i18n.json'
 
 export const useTranslation = () => {
   const locale = useLocale()

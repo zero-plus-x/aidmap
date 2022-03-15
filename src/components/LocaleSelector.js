@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useLocale, useSetLocale } from '../localeContext'
+import { useLocale, useSetLocale } from '../contexts/localeContext'
 import { Menu, MenuItem, Button } from '@mui/material'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
 
@@ -30,23 +30,12 @@ export const LocaleSelector = () => {
 
   return (
     <>
-      <Button
-        color="inherit"
-        endIcon={<KeyboardArrowDownIcon />}
-        onClick={handleClick}
-      >
+      <Button color="inherit" endIcon={<KeyboardArrowDownIcon />} onClick={handleClick}>
         {currentLanguage.title}
       </Button>
-      <Menu
-        anchorEl={anchor}
-        open={!!anchor}
-        onClose={() => handleClose(null)}
-      >
+      <Menu anchorEl={anchor} open={!!anchor} onClose={() => handleClose(null)}>
         {LANGUAGES.map((lang) => (
-          <MenuItem
-            key={lang.code}
-            onClick={() => handleClose(lang.code)}
-          >
+          <MenuItem key={lang.code} onClick={() => handleClose(lang.code)}>
             {lang.title}
           </MenuItem>
         ))}
