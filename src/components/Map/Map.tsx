@@ -1,11 +1,14 @@
-import React from 'react'
-
+import { Countries } from 'types'
 import { useMap } from '../../hooks/useMap'
 import { useTranslation } from '../../hooks/useTranslation'
 
 import './index.css'
 
-export const Map = ({ countries }) => {
+type Props = {
+  countries: Countries
+}
+
+export const Map: React.FC<Props> = ({ countries }) => {
   const t = useTranslation()
 
   useMap({
@@ -14,11 +17,5 @@ export const Map = ({ countries }) => {
     t,
   })
 
-  return (
-    <svg
-      id="map"
-      width="100%"
-      height="100%"
-    />
-  )
+  return <svg id="map" width="100%" height="100%" />
 }

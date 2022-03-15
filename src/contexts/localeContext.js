@@ -12,9 +12,7 @@ export const LocaleProvider = ({ children }) => {
 
   return (
     <localeContext.Provider value={locale}>
-      <localeSetContext.Provider value={setLocale}>
-        {children}
-      </localeSetContext.Provider>
+      <localeSetContext.Provider value={setLocale}>{children}</localeSetContext.Provider>
     </localeContext.Provider>
   )
 }
