@@ -57,8 +57,8 @@ const renderMap = ({ container, countries, setActiveCountryName, t }) => {
   const zoomFn = zoom()
     .scaleExtent([1, 50])
     .translateExtent([
-      [-400, -300],
-      [600, 1000],
+      [-2000, -2000],
+      [3000, 2000],
     ])
     .on(
       'zoom',
