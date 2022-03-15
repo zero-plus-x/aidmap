@@ -11,7 +11,7 @@ import {
   Typography,
 } from '@mui/material'
 import { submitForm } from '../utils'
-import EditIcon from '@mui/icons-material/Edit'
+import FlagIcon from '@mui/icons-material/Flag'
 import CloseIcon from '@mui/icons-material/Close'
 import { useTranslation } from '../hooks/useTranslation'
 
@@ -51,7 +51,7 @@ export const FeedbackForm = () => {
     <>
       {!isOpen && (
         <Fab color="primary" aria-label="edit" sx={fabStyle} onClick={() => setIsOpen(true)}>
-          <EditIcon />
+          <FlagIcon />
         </Fab>
       )}
       {isOpen && (
