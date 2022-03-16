@@ -9,7 +9,7 @@ export const App: React.FC = () => {
   return (
     <LocaleProvider>
       <ActiveCountryNameProvider>
-        <div>
+        <div className="App">
           <TopBar />
           <Map countries={data.countries} />
           <CountryInfo />
