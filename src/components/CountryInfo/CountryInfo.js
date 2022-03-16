@@ -31,14 +31,16 @@ export const CountryInfo = () => {
   }, [])
 
   useEffect(() => {
-    import(`../../markdown/${activeCountryName}/${locale}.md`)
-      .then((response) => {
-        fetch(response.default)
-          .then((res) => res.text())
-          .then((res) => setCountryMd(res))
-          .catch((err) => console.log(err))
-      })
-      .catch((err) => console.log(err))
+    if (activeCountryName) {
+      import(`../../markdown/${activeCountryName}/${locale}.md`)
+        .then((response) => {
+          fetch(response.default)
+            .then((res) => res.text())
+            .then((res) => setCountryMd(res))
+            .catch((err) => console.log(err))
+        })
+        .catch((err) => console.log(err))
+    }
   })
 
   useEffect(() => {

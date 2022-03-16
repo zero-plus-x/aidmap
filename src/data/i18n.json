@@ -225,6 +225,18 @@
     "ru": "Кипр",
     "el": "Κύπρος"
   },
+  "country.Kosovo": {
+    "en": "Kosovo",
+    "uk": "Косово",
+    "ru": "Косово",
+    "sq": "Kosova"
+  },
+  "country.Iceland": {
+    "en": "Iceland",
+    "uk": "Ісландія",
+    "ru": "Исландия",
+    "is": "Ísland"
+  },
   "point.Lviv": {
     "en": "Lviv",
     "uk": "Львів",

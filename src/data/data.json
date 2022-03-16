@@ -276,6 +276,20 @@
       "info": [],
       "center": [35.025120, 33.049612],
       "zoom": 2
+    },
+    "Kosovo": {
+      "nameCode": "country.Kosovo",
+      "localLanguage": "sq",
+      "info": [],
+      "center": [42.562222, 20.905732],
+      "zoom": 8
+    },
+    "Iceland": {
+      "nameCode": "country.Iceland",
+      "localLanguage": "is",
+      "info": [],
+      "center": [64.900836, -18.125197],
+      "zoom": 1
     }
   },
   "points": {
