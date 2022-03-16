@@ -1,15 +1,25 @@
-import { AppBar, Toolbar, Typography } from '@mui/material'
-import { MapOutlined } from '@mui/icons-material'
+import { AppBar, Toolbar, Typography, Box } from '@mui/material'
 import { LocaleSelector } from '../LocaleSelector/LocaleSelector'
 
 export const TopBar = () => {
+  const title = ['Ukraine Refugees', 'Help Map']
+
   return (
     <AppBar position="static">
       <Toolbar>
-        <MapOutlined sx={{ mr: 2 }} />
-        <Typography variant="h6" component="div" align="left" sx={{ flexGrow: 1 }}>
-          Map
-        </Typography>
+        <Box sx={{ flexGrow: 1 }}>
+          {title.map((text) => (
+            <Typography
+              key={text}
+              component="h1"
+              variant="button"
+              display="block"
+              sx={{ lineHeight: 1.3 }}
+            >
+              {text}
+            </Typography>
+          ))}
+        </Box>
         <LocaleSelector />
       </Toolbar>
     </AppBar>
