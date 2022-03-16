@@ -2,7 +2,15 @@ import { useEffect, useState } from 'react'
 import Markdown from 'markdown-to-jsx'
 
 import { Close } from '@mui/icons-material'
-import { AppBar, Dialog, DialogContent, IconButton, Toolbar, Typography } from '@mui/material'
+import {
+  AppBar,
+  CircularProgress,
+  Dialog,
+  DialogContent,
+  IconButton,
+  Toolbar,
+  Typography,
+} from '@mui/material'
 
 import { Countries } from 'types'
 import { useLocale, useActiveCountryName, useSetActiveCountryName } from 'contexts'
@@ -16,6 +24,7 @@ export const CountryInfo: React.FC = () => {
   const locale = useLocale()
   const activeCountryName = useActiveCountryName()
   const setActiveCountryName = useSetActiveCountryName()
+  const [isLoading, setIsLoading] = useState(true)
   const [countryMd, setCountryMd] = useState('')
   const { emptyMd } = useEmptyMd()
 
@@ -30,12 +39,14 @@ export const CountryInfo: React.FC = () => {
             .then((res) => setCountryMd(res))
             .catch((err) => console.log(err))
         })
+        .finally(() => setIsLoading(false))
         .catch((err) => console.log(err))
     }
   })
 
   useEffect(() => {
     setCountryMd('')
+    setIsLoading(true)
   }, [activeCountryName, locale])
 
   if (!activeCountryName) {
@@ -65,7 +76,7 @@ export const CountryInfo: React.FC = () => {
         </Toolbar>
       </AppBar>
       <DialogContent>
-        <Markdown>{countryMd || emptyMd}</Markdown>
+        {isLoading ? <CircularProgress /> : <Markdown>{countryMd || emptyMd}</Markdown>}
       </DialogContent>
     </Dialog>
   )
