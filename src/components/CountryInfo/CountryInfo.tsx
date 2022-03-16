@@ -1,34 +1,25 @@
 import { useEffect, useState } from 'react'
+import Markdown from 'markdown-to-jsx'
 
 import { Close } from '@mui/icons-material'
+import { AppBar, Dialog, DialogContent, IconButton, Toolbar, Typography } from '@mui/material'
+
+import { Countries } from 'types'
+import { useLocale, useActiveCountryName, useSetActiveCountryName } from 'contexts'
+import { useEmptyMd, useTranslation } from 'hooks'
+import { LocaleSelector } from 'components'
+
 import data from '../../data/data.json'
 
-import { AppBar, Dialog, DialogContent, IconButton, Toolbar, Typography } from '@mui/material'
-import Markdown from 'markdown-to-jsx'
-import { useTranslation } from '../../hooks/useTranslation'
-import { LocaleSelector } from '../LocaleSelector/LocaleSelector'
-import { useLocale } from '../../contexts/localeContext'
-import {
-  useActiveCountryName,
-  useSetActiveCountryName,
-} from '../../contexts/activeCountryNameContext'
-
-export const CountryInfo = () => {
+export const CountryInfo: React.FC = () => {
   const t = useTranslation()
   const locale = useLocale()
   const activeCountryName = useActiveCountryName()
   const setActiveCountryName = useSetActiveCountryName()
   const [countryMd, setCountryMd] = useState('')
-  const [emptyMd, setEmptyMd] = useState('')
+  const { emptyMd } = useEmptyMd()
 
-  useEffect(() => {
-    import(`../../markdown/empty.md`).then((response) => {
-      fetch(response.default)
-        .then((res) => res.text())
-        .then((res) => setEmptyMd(res))
-        .catch((err) => console.log(err))
-    })
-  }, [])
+  const countries: Countries = data.countries
 
   useEffect(() => {
     if (activeCountryName) {
@@ -51,8 +42,7 @@ export const CountryInfo = () => {
     return null
   }
 
-  const countryData = data.countries[activeCountryName]
-  const { nameCode } = countryData
+  const { nameCode } = countries[activeCountryName]
 
   return (
     <Dialog fullScreen open>
