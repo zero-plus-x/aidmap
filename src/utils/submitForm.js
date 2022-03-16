@@ -15,7 +15,7 @@ const submitForm = (event, data) => {
     }
 
     const encoded = Object.keys(data)
-      .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
+      .map((k) => encodeURIComponent(k) + '=' + encodeURIComponent(data[k]))
       .join('&')
 
     xhr.send(encoded)

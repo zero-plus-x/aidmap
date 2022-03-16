@@ -10,10 +10,10 @@ import {
   Toolbar,
   Typography,
 } from '@mui/material'
-import { submitForm } from '../utils'
+import { submitForm } from '../../utils'
 import FlagIcon from '@mui/icons-material/Flag'
 import CloseIcon from '@mui/icons-material/Close'
-import { useTranslation } from '../hooks/useTranslation'
+import { useTranslation } from '../../hooks/useTranslation'
 
 const fabStyle = {
   position: 'absolute',

@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import { useLocale, useSetLocale } from '../contexts/localeContext'
 import { Menu, MenuItem, Button } from '@mui/material'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
+
+import { useLocale, useSetLocale } from '../../contexts/localeContext'
 
 const LANGUAGES = [
   { code: 'uk', title: 'Українська' },
