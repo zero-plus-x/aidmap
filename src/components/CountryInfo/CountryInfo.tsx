@@ -37,9 +37,9 @@ export const CountryInfo: React.FC = () => {
           fetch(response.default)
             .then((res) => res.text())
             .then((res) => setCountryMd(res))
+            .finally(() => setIsLoading(false))
             .catch((err) => console.log(err))
         })
-        .finally(() => setIsLoading(false))
         .catch((err) => console.log(err))
     }
   })
