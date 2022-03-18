@@ -33,6 +33,10 @@ https://www.shelter4ua.com/
 
 ### Free Clothes
 
-### Free Wifi
+### Free Wi-Fi
+There is usually free Wi-Fi in many public areas in Sweden, including Airports, major train station and government institutions.
+Pressbyrån shops which usually can be found next to subway stations also have free Wi-Fi.
+Many cafes and restaurants also have free Wi-Fi. This map can help you find these access points:
+http://www.wificafespots.com/wifi/country/Sweden
 
 ### SIM-card
