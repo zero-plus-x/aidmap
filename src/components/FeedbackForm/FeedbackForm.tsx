@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { FC, ChangeEvent, FormEvent, useState } from 'react'
 import {
   AppBar,
   Box,
@@ -14,6 +14,7 @@ import { submitForm } from '../../utils'
 import FlagIcon from '@mui/icons-material/Flag'
 import CloseIcon from '@mui/icons-material/Close'
 import { useTranslation } from '../../hooks/useTranslation'
+import { useActiveCountryName, useLocale } from '../../contexts'
 
 const fabStyle = {
   position: 'absolute',
@@ -22,20 +23,33 @@ const fabStyle = {
   zIndex: 1400,
 }
 
-export const FeedbackForm = () => {
+export const FeedbackForm: FC = () => {
   const t = useTranslation()
-  const [isOpen, setIsOpen] = useState()
-  const [isSubmitting, setIsSubmitting] = useState()
-  const [isSubmitted, setIsSubmitted] = useState()
+  const locale = useLocale()
+  const activeCountryName = useActiveCountryName()
+
+  const [isOpen, setIsOpen] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitted, setIsSubmitted] = useState(false)
   const [message, setMessage] = useState('')
 
-  const handleChange = (event) => {
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setMessage(event.target.value)
   }
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: FormEvent) => {
+    event.preventDefault()
+
+    if (!message) {
+      return
+    }
+
     setIsSubmitting(true)
-    await submitForm(event, { message })
+    await submitForm(event, {
+      message,
+      locale,
+      ...(activeCountryName && { country: activeCountryName }),
+    })
     setIsSubmitted(true)
     setMessage('')
   }
