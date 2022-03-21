@@ -2,8 +2,11 @@
 
 ## General information
 
-Sweden is a developed country with very tolerant population. Though if you require non-emergency medical help
-it may be rather slow.
+Sweden is a developed country with very tolerant population.
+
+## Potential issues
+
+Non-emergency medical help may be rather slow.
 
 ## Find local help
 
@@ -11,11 +14,20 @@ it may be rather slow.
 
 Sweden has railway and roadway connections with Denmark, Finland, and Norway.
 
-There is a daily ferry going across the Baltic sea from Gdansk in Poland to Nynashamn near Stockholm.
+There are multiple ferries going across the Baltic sea:
+- from Gdansk in Poland to Nynashamn near Stockholm
+- from Gdynia in Poland to Karlskrona in southern Sweden
+- from Swinoujscie in Poland to Trelleborg and Ystad in southern Sweden
+- from Riga in Latvia to Stockholm
+- from Klaipėda in Lithuania to Trelleborg in southern Sweden
 
-And there are multiple direct airplane connections.
+There are multiple direct airplane connections with major cities in Europe.
 
 Many transportation options are free for Ukrainian refugees.
+
+Some toll roads are free for the cars with Ukrainian license plates.
+
+Public transport in some cities including Stockholm is free for people with Ukrainian passports or ID-cards.
 
 ## Asylum
 
