@@ -26,8 +26,15 @@ Many transportation options are free for Ukrainian refugees.
 ## Where to find
 
 ### Accommodation
+There are multiple projects helping people to find accommodation in Sweden, here are some of them:
 
 https://www.shelter4ua.com/
+
+https://prykhystok.in.ua/
+
+https://icanhelp.host/
+
+As an additional security measure, you can check the identity of your potential host on https://www.hitta.se.
 
 ### Free Food
 
@@ -40,3 +47,5 @@ Many cafes and restaurants also have free Wi-Fi. This map can help you find thes
 http://www.wificafespots.com/wifi/country/Sweden
 
 ### SIM-card
+
+[hasdi]: https://www.hitta.se
