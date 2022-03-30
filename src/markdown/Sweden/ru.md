@@ -32,8 +32,85 @@
 ## Убежище
 
 ### Правила
+Шведское миграционное агентство помогает с питанием и временным жильем всем, кто не нашел жилье самостоятельно. Получив разрешение, вы
+имеете право на: работу, медицинское обслуживание, обучение детей и определенное денежное пособие в Швеции.
 
-### Офисы
+Временная защита обычно предоставляется быстро.  Затем, на более позднем этапе, Шведское миграционное агентство оценит, должны ли вы получить статус защиты в качестве беженца или в качестве альтернативы нуждаетесь в защите. Во время этого судебного разбирательства ваши индивидуальные причины будут расследованы, и это процесс, который занимает больше времени.
+Те, кто получит разрешение в соответствии с Директивой о временной защите, получат вид на жительство в Швеции до 4 марта 2023 года, который может быть продлен не позднее 4 марта 2025 года. Вы получаете право на работу в Швеции, определенные социальные права и право на обучение в школе и здравоохранение. Вы не сможете зарегистрироваться в Швеции, но имеете право оставаться здесь до тех пор, пока действует разрешение.
+
+Вы можете подать заявку на временную защиту в электронном виде: https://www.migrationsverket.se/English/Private-individuals/Protection-under-the-Temporary-Protection-Directive/Apply-for-protection-under-the-Temporary-Protection-Directive.html
+
+Если вам нужна помощь с размещением, вам придется посетить один из офисов Миграционной службы.
+
+Если вы получаете убежище (статус защиты в качестве беженца или альтернативно нуждающегося в защите), вид на жительство составляет 3 года для беженцев и 13 месяцев для альтернативно нуждающихся в защите. Ваш статус защиты действителен до дальнейшего уведомления, и ваш вид на жительство продлевается на два года за один раз. Вы получаете право на работу, более широкие социальные права и право на регистрацию в Швеции по сравнению с теми, кто регистрируется, чтобы подпадать под действие Директивы о временной защите. В настоящее время Шведское миграционное агентство не принимает решения о предоставлении убежища для украинцев.
+
+
+Независимо от того, на что заявитель решит претендовать, граждане Украины могут находиться в Швеции без разрешения в течение 90 дней. Граждане Украины имеют безвизовый режим в пределах Шенгенской зоны. Это означает, что гражданин Украины, который может предъявить действующий биометрический паспорт на границе со Швецией, может находиться здесь без визы до 90 дней.
+
+Граждане Украины, не имеющие биометрического паспорта, имеют право путешествовать и находиться в Швеции в течение 90 дней по шенгенской визе.
+
+Дополнительная информация о Директиве о временной защите:  https://www.migrationsverket.se/Andra-aktorer/Kommuner/Information-om-massflyktsdirektivet.html
+
+### Офисы для подачи заявления о предоставлении убежища
+
+#### Стокгольм (Сундбюберг), Stockholm (Sundbyberg)
+
+Sturegatan 15, Sundbyberg
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Stockholm---Servicecenter.html
+
+#### Гётеборг, Göteborg
+
+Streteredsvägen 90, Kållered
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Goteborg---Ansoka-om-asyl.html
+
+#### Мальмё, Malmö
+
+Jägersrovägen 160
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Malmo---Ansoka-om-asyl.html
+
+### Офисы для подачи заявления на получение Директивы о временной защите
+#### Боден, Boden
+
+Hedenbrovägen 4
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Boden---Servicecenter.html
+#### Гётеборг, Göteborg
+
+Streteredsvägen 90, Kållered
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Goteborg---Ansoka-om-asyl.html
+#### Мальмё, Malmö
+
+Agnesfridsvägen 111
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Malmo---Servicecenter.html
+#### Норчёпинг, Norrköping
+
+Slottsgatan 82
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Norrkoping---Servicecenter.html
+#### Стокгольм (Мэрста), Stockholm (Märsta)
+
+Maskingatan 9, Märsta
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Stockholm---Marsta.html
+#### Стокгольм (Сундбюберг), Stockholm (Sundbyberg)
+Sturegatan 15, Sundbyberg
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Stockholm---Servicecenter.html
+#### Сундсвалль, Sundsvall
+
+Sjögatan 17
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Sundsvall---Servicecenter.html
+#### Эребру, Örebro
+
+Östra Bangatan 7 A
+
+https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Orebro---Servicecenter.html
 
 ## Где найти
 
@@ -59,3 +136,12 @@ https://icanhelp.host/
 http://www.wificafespots.com/wifi/country/Sweden
 
 ### Сим-карта
+
+## Национальные телефонные номера
+В экстренных ситуациях звоните 112
+
+Помощь с болезнью и медицинским обслуживанием, звоните 1177
+
+Для несрочных дел полиции звоните 11414
+
+Поддержка Шведского юридического центра по делам беженцев, тел. +46 (0) 200-88 00 66
