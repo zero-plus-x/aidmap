@@ -1,4 +1,5 @@
 import { FC, ChangeEvent, FormEvent, useState } from 'react'
+import Markdown from 'markdown-to-jsx'
 import {
   AppBar,
   Box,
@@ -76,17 +77,15 @@ export const FeedbackForm: FC = () => {
                 <CloseIcon />
               </IconButton>
               <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div" noWrap>
-                {t('report_error_title')}
+                {t('contribute_title')}
               </Typography>
             </Toolbar>
           </AppBar>
           <Box sx={{ padding: '10px 20px' }}>
-            {isSubmitted && (
-              <Typography variant="h6">{t('report_error_success_message')}</Typography>
-            )}
+            {isSubmitted && <Typography variant="h6">{t('contribute_success_message')}</Typography>}
             {!isSubmitted && (
               <>
-                <Typography variant="h6">{t('report_error_description')}</Typography>
+                <Typography variant="h6">{t('contribute_description')}</Typography>
                 <Box
                   component="form"
                   sx={{
@@ -99,17 +98,20 @@ export const FeedbackForm: FC = () => {
                 >
                   <TextField
                     name="message"
-                    label={t('report_error_message')}
+                    label={t('contribute_message')}
                     multiline
                     maxRows={15}
                     value={message}
                     onChange={handleChange}
                   />
-                  <Box>
+                  <Box sx={{ marginBottom: '20px' }}>
                     <Button variant="contained" type="submit" disabled={isSubmitting}>
-                      {t('report_error_send')}
+                      {t('contribute_send')}
                     </Button>
                   </Box>
+                  <Typography variant="h6">
+                    <Markdown>{t('contribute_additional_info')}</Markdown>
+                  </Typography>
                 </Box>
               </>
             )}
