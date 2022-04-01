@@ -7,6 +7,18 @@ import topology from '../data/topology.json'
 import { useSetActiveCountryName } from '../contexts/activeCountryNameContext'
 
 const DEFAULT_SCALE = 1.4
+const HIGHLIGHTED_COUNTRIES = ['Sweden']
+
+const getFillColorForCountry = (name) => {
+  if (!name) {
+    return '#ececec'
+  }
+
+  return HIGHLIGHTED_COUNTRIES.includes(name) ? '#006fab' : '#dff1fb'
+}
+
+const getLabelColorForCountry = (name) =>
+  HIGHLIGHTED_COUNTRIES.includes(name) ? '#ffffff' : '#006fab'
 
 const renderMap = ({ container, countries, setActiveCountryName, t }) => {
   const width = window.screen.width
@@ -26,7 +38,6 @@ const renderMap = ({ container, countries, setActiveCountryName, t }) => {
 
   const features = feature(topology, topology.objects.countries).features
 
-  // Render countries
   const map = svg.append('g')
   map
     .selectAll('path')
@@ -36,15 +47,16 @@ const renderMap = ({ container, countries, setActiveCountryName, t }) => {
     .attr('class', (d) => `country country-${d.properties?.name}`)
     .attr('d', path)
     .style('cursor', (d) => (d.properties?.name ? 'pointer' : 'default'))
-    .style('fill', (d) => (d.properties?.name ? '#dff1fb' : '#ececec'))
-    .style('stroke', (d) => (d.properties?.name ? '#006fab' : '#999999'))
+    .style('fill', (d) => getFillColorForCountry(d.properties?.name))
+    .style('stroke', '#ffffff')
     .on('click', (event, d) => {
       setActiveCountryName(d.properties?.name)
     })
 
+  const formattedCountries = Object.entries(countries).map(([name, item]) => ({ name, ...item }))
   map
     .selectAll('text')
-    .data(Object.values(countries))
+    .data(formattedCountries)
     .enter()
     .append('text')
     .text((d) => t(d.nameCode))
@@ -52,6 +64,7 @@ const renderMap = ({ container, countries, setActiveCountryName, t }) => {
     .attr('y', (d) => (d.center ? projection([d.center[1], d.center[0]])[1] : 0))
     .attr('class', 'country-label')
     .style('pointer-events', 'none')
+    .style('fill', (d) => getLabelColorForCountry(d.name))
     .style('opacity', (d) => (d.zoom === 1 ? 1 : 0))
 
   const zoomFn = zoom()

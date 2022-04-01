@@ -357,27 +357,32 @@
     "uk": "template",
     "ru": "template"
   },
-  "report_error_title": {
-    "en": "Report an error",
-    "uk": "Повідомити про помилку",
-    "ru": "Сообщить об ошибке"
+  "contribute_title": {
+    "en": "Contribute",
+    "uk": "Запропонувати зміни",
+    "ru": "Предложить изменения"
   },
-  "report_error_description": {
-    "en": "If you notice incorrect or outdated information, please contact us:",
-    "uk": "Якщо ви помітили неправильну або застарілу інформацію, будь ласка, напишіть нам:",
-    "ru": "Если вы заметили неверную или устаревшую информацию, пожалуйста, напишите нам:"
+  "contribute_description": {
+    "en": "If you notice incorrect or outdated information, or you think something should be added, please contact us:",
+    "uk": "Якщо ви помітили неправильну або застарілу інформацію або вважаєте, що потрібно щось додати, будь ласка, напишіть нам:",
+    "ru": "Если вы заметили неверную или устаревшую информацию или считаете, что нужно что-то добавить, пожалуйста, напишите нам:"
   },
-  "report_error_message": {
+  "contribute_additional_info": {
+    "en": "Alternatively, you can contribute directly by creating a PR in [our GitHub project](https://github.com/zero-plus-x/map).",
+    "uk": "Крім того, ви можете зробити свій внесок безпосередньо, створивши PR в [наш проект GitHub](https://github.com/zero-plus-x/map).",
+    "ru": "Кроме того, вы можете внести свой вклад напрямую, создав PR в [наш проект GitHub](https://github.com/zero-plus-x/map)."
+  },
+  "contribute_message": {
     "en": "Message",
     "uk": "Повідомлення",
     "ru": "Сообщение"
   },
-  "report_error_send": {
+  "contribute_send": {
     "en": "Send",
     "uk": "Відправити",
     "ru": "Отправить"
   },
-  "report_error_success_message": {
+  "contribute_success_message": {
     "en": "Thank you for your help!",
     "uk": "Дякую за вашу допомогу!",
     "ru": "Спасибо за вашу помощь!"
