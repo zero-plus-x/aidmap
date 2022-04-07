@@ -32,23 +32,23 @@
 ## Притулок
 
 ### Rules
-The Swedish Migration Agency assists with food and temporary accommodation for anyone who has not found accommodation on their own. When you have received your permit you
-have the right to: work, health care, schooling for children and certain financial allowance in Sweden.
+Міграційна агенція Швеції допомогає із їжею та тимчасовим житлом усім хто не зміг віднайти притулок самостійно. Коли ви отримаєте дозвіл на перебування в країні,
+ви будете мати право на: працю, охорону здоров’я, доступ вашої дитини до школи та фінансову допомогу в Швеції.
 
-The Temporary Protection is usually granted quickly. Then, at a later stage, the Swedish Migration Agency will assess whether you should receive protection status as a refugee or alternatively in need of protection. During that trial, your individual reasons will be investigated and it is a process that takes longer.
-Those who receive a permit by the Temporary Protection Directive will receive a residence permit in Sweden until 4 March 2023, which can be extended until 4 March 2025 at the latest. You get the right to work in Sweden, certain social rights and the right to school and health care. You will not be able to register in Sweden, but have the right to stay here as long as the permit is valid.
+Тимчасовий захист(той самий дозвіл на перебування) зазвичай видається швидко. Потім, Міграційна агенція Швеції розгляне вашу справу. Під час розгляду вашої справи будуть вивчені ваші персональні причини переїзду і цей процес займатиме більше часу.
+Ті хто отримає дозвіл за директивою тимчасового захисту отримає дозвіл на перебування в Швеції до 4 березня 2023, який може буде подовжено максимум до 4 березня 2025. Ви отримаєте дозвіл на працю, соціальні права та дозвіл на освіту та медичні послуги. Ви не зможете зареєструватись в Швеції, але зможете залишатись тут до закінчення дозволу на перебування.
 
-You can apply for Temporary Protection electronically: https://www.migrationsverket.se/English/Private-individuals/Protection-under-the-Temporary-Protection-Directive/Apply-for-protection-under-the-Temporary-Protection-Directive.html
+Ви можете подати заяву на Тимчасовий Захист он-лайн: https://www.migrationsverket.se/English/Private-individuals/Protection-under-the-Temporary-Protection-Directive/Apply-for-protection-under-the-Temporary-Protection-Directive.html
 
-If you need help with accommodation you will have to visit one of the Migration Agency offices.
+Якщо ви потребуєте домоги із житлом, вам доведеться прийти до одного із міграційних офісів.
 
-If you receive asylum (a protection status as a refugee or alternatively in need of protection), the residence permit is 3 years for refugees and 13 months for alternatively in need of protection. Your protection status is valid until further notice and your residence permit is extended by two years at a time. You get the right to work, more comprehensive social rights and the right to register in Sweden in comparison to those who register to be covered by The Tempo­rary Protec­tion Directive. At present, the Swedish Migration Agency does not make decisions on asylum in Ukrainian affairs.
+Якщо ви отримаєте притулок(статус біженця або статус потребуючого захисту), дозвіл на перебування для біженця 3 роки, для потребуючого захисту 13 місяців. Ваш статус дійсний до наступного повідомлення та має можливість подовження на 2 роки. Ви отримаєте більше соціальних прав та право зареєструватися в Швеції, порівняно із тими хто отримав дозвіл за Директивою Тимчасового Захисту.
+Зараз українці не можуть отримати статус біженця.
+Українці можуть залишатися в Шенгенській зоні 90 днів. Для тих хто має дійсний біометричний паспорт в наявності, віза в Швецію не потрібна.
+Якщо у вас немає біометричного паспорту, ви можете залишатися в Швеції 90 днів із Шенгенською візою.
 
-Regardless of what the applicant decides to apply for, Ukrainian citizens can stay in Sweden without a permit for 90 days. Ukrainian citizens are visa-free within the Schengen area. This means that a Ukrainian citizen who can show a valid biometric passport at the border with Sweden can stay here without a visa for up to 90 days.
 
-Ukrainian citizens who do not have a biometric passport have the right to travel and stay in Sweden for 90 days with a Schengen visa.
-
-More information about the Temporary Protection Directive: https://www.migrationsverket.se/Andra-aktorer/Kommuner/Information-om-massflyktsdirektivet.html
+Більше інформаціі про Директиву Тимчасового Захисту: https://www.migrationsverket.se/Andra-aktorer/Kommuner/Information-om-massflyktsdirektivet.html
 
 ### Offices to apply for asylum
 
@@ -143,6 +143,6 @@ http://www.wificafespots.com/wifi/country/Sweden
 
 Допомога у зв’язку з хворобою та охороною здоров’я, телефонуйте за номером 1177
 
-У разі невідкладних випадків міліції телефонуйте за номером 11414
+У разі не терміновго виклику поліції телефонуйте за номером 11414
 
 Підтримка Шведського центру права біженців, телефонуйте +46 (0) 200-88 00 66
