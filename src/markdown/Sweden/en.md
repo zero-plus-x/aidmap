@@ -144,3 +144,6 @@ Help with sickness and health care, call 1177
 For non-urgent police cases, call 11414
 
 Support from Swedish Refugee Law Center, call +46 (0) 200-88 00 66
+
+## Other helpful volunteer projects
+https://www.helpinchange.org

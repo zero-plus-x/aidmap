@@ -31,7 +31,7 @@
 
 ## Притулок
 
-### Rules
+### Правила
 Міграційна агенція Швеції допомогає із їжею та тимчасовим житлом усім хто не зміг віднайти притулок самостійно. Коли ви отримаєте дозвіл на перебування в країні,
 ви будете мати право на: працю, охорону здоров’я, доступ вашої дитини до школи та фінансову допомогу в Швеції.
 
@@ -50,7 +50,7 @@
 
 Більше інформаціі про Директиву Тимчасового Захисту: https://www.migrationsverket.se/Andra-aktorer/Kommuner/Information-om-massflyktsdirektivet.html
 
-### Offices to apply for asylum
+### Офіси, які подають заяву про надання притулку
 
 #### Stockholm (Sundbyberg)
 
@@ -70,7 +70,7 @@ Jägersrovägen 160
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Malmo---Ansoka-om-asyl.html
 
-### Offices to apply for Temporary Protection Directive
+### Офіси, які подають заявку на отримання Директиви про тимчасовий захист
 #### Boden
 
 Hedenbrovägen 4
@@ -146,3 +146,6 @@ http://www.wificafespots.com/wifi/country/Sweden
 У разі не терміновго виклику поліції телефонуйте за номером 11414
 
 Підтримка Шведського центру права біженців, телефонуйте +46 (0) 200-88 00 66
+
+## Інші корисні волонтерські проекти
+https://www.helpinchange.org
