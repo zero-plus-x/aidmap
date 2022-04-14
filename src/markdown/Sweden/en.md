@@ -150,6 +150,21 @@ Many cafes and restaurants also have free Wi-Fi. This map can help you find thes
 http://www.wificafespots.com/wifi/country/Sweden
 
 ### SIM-card
+There might be free SIM cards handed out outside of the Migration boards asylum seeking office, at ferry ports or train stations. Reach out to the present help organisations or volunteers to get more information about this.
+
+At Pressbyrån (or any equivalent convenient store, located by the gates to almost every subway and train station around Sweden) you can get a prepaid SIM card from various low fare providers and top up with both data and phone plans as you go.
+
+[Pressbyrån](https://webshop.pressbyran.se/Tjanster/Tjansteributik/kontantkort/)
+
+You can also visit any of these local operators to get a prepaid SIM card on arrival to Sweden. In order to sign up for a cell phone plan you will most likely be required to be registered as a resident in Sweden.  
+
+[Telia](https://www.telia.se/privat/kontakt/butikerochaterforsaljare)
+
+[Telenor](https://www.telenor.se/hitta-butik/)
+
+[Tele2](https://www.tele2.se/butiker)
+
+[Tre](https://www.tre.se/om-tre/kontakt/butiker)
 
 ## National phone numbers
 For emergency situations, call 112
