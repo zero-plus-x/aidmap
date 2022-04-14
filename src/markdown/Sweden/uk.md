@@ -124,9 +124,26 @@ https://icanhelp.host/
 
 Як додатковий захід безпеки, ви можете перевірити особу вашого потенційного хоста на https://www.hitta.se.
 
-### Безкоштовна їжа
+### Безкоштовна їжа та одяг
+This might be offered from time to time from various help and volunteer organisations. In order to get the most up-to-date relevant information, visit the help organisations webpage or local aid centre to ask a volunteer for more information.
 
-### Безкоштовний одяг
+Also, there are second hand stores which are not exactly free, but provide more easily affordable used items, such as clothes, shoes, toys, utilities, furniture, etc. and can be found all around Sweden. 
+
+Some of the major help organizations and second hand stores across Sweden:
+
+All over Sweden
+- Röda korset (Red cross) https://www.rodakorset.se/fa-hjalp/varme-mat-och-klader/
+- Erikshjälpen https://erikshjalpen.se/second-hand/vara-butiker/
+
+In Stockholm
+- Stockholms Stadsmission https://www.stadsmissionen.se/hitta-butik
+- Emmaus https://emmausstockholm.se
+
+Southern Sweden
+- Skåne Stadsmission https://www.skanestadsmission.se/fa-stod/
+
+Nothern Sweden
+- The Swedish Church of Boden (Address: Strandplan 25, 96134 BODEN)
 
 ### Безкоштовний Wi-Fi
 Зазвичай у багатьох громадських місцях Швеції, включаючи аеропорти, головний залізничний вокзал та державні установи, є безкоштовний Wi-Fi.

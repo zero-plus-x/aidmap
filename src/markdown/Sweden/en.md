@@ -122,9 +122,26 @@ https://icanhelp.host/
 
 As an additional security measure, you can check the identity of your potential host on https://www.hitta.se.
 
-### Free Food
+### Free food and clothes
+This might be offered from time to time from various help and volunteer organisations. In order to get the most up-to-date relevant information, visit the help organisations webpage or local aid centre to ask a volunteer for more information.
 
-### Free Clothes
+Also, there are second hand stores which are not exactly free, but provide more easily affordable used items, such as clothes, shoes, toys, utilities, furniture, etc. and can be found all around Sweden. 
+
+Some of the major help organizations and second hand stores across Sweden:
+
+All over Sweden
+- Röda korset (Red cross) https://www.rodakorset.se/fa-hjalp/varme-mat-och-klader/
+- Erikshjälpen https://erikshjalpen.se/second-hand/vara-butiker/
+
+In Stockholm
+- Stockholms Stadsmission https://www.stadsmissionen.se/hitta-butik
+- Emmaus https://emmausstockholm.se
+
+Southern Sweden
+- Skåne Stadsmission https://www.skanestadsmission.se/fa-stod/
+
+Nothern Sweden
+- The Swedish Church of Boden (Address: Strandplan 25, 96134 BODEN)
 
 ### Free Wi-Fi
 There is usually free Wi-Fi in many public areas in Sweden, including airports, major train station and government institutions.
