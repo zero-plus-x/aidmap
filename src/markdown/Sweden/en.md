@@ -8,8 +8,6 @@ Sweden is a developed country with very tolerant population.
 
 Non-emergency medical help may be rather slow.
 
-## Find local help
-
 ## How to get there?
 
 Sweden has railway and roadway connections with Denmark, Finland, and Norway.
