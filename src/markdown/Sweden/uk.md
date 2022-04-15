@@ -125,24 +125,24 @@ https://icanhelp.host/
 Як додатковий захід безпеки, ви можете перевірити особу вашого потенційного хоста на https://www.hitta.se.
 
 ### Безкоштовна їжа та одяг
-This might be offered from time to time from various help and volunteer organisations. In order to get the most up-to-date relevant information, visit the help organisations webpage or local aid centre to ask a volunteer for more information.
+Вона може бути видана волонтерами або іншими допомагаючими організаціями або людьми. Щоб отримати останню інформацію, зайдіть на сайт організаці, щоб зв'язатися з волонотерами.
 
-Also, there are second hand stores which are not exactly free, but provide more easily affordable used items, such as clothes, shoes, toys, utilities, furniture, etc. and can be found all around Sweden. 
+Також доступні магазини секонд-хенду, які не безкоштовні, але можуть запропонувати доступні ціни на використані речі, такі як одяг, взуття, іграшки, електроніка, мебель та інше. Вони є по всій Швеції.
 
-Some of the major help organizations and second hand stores across Sweden:
+Деякі великі організації та магазини секонд-хенду у Щвеції:
 
-All over Sweden
+Вся Швеція
 - Röda korset (Red cross) https://www.rodakorset.se/fa-hjalp/varme-mat-och-klader/
 - Erikshjälpen https://erikshjalpen.se/second-hand/vara-butiker/
 
-In Stockholm
+В Стокгольмі
 - Stockholms Stadsmission https://www.stadsmissionen.se/hitta-butik
 - Emmaus https://emmausstockholm.se
 
-Southern Sweden
+Південна Швеція
 - Skåne Stadsmission https://www.skanestadsmission.se/fa-stod/
 
-Nothern Sweden
+Північна Швеція
 - The Swedish Church of Boden (Address: Strandplan 25, 96134 BODEN)
 
 ### Безкоштовний Wi-Fi
@@ -152,13 +152,14 @@ Nothern Sweden
 http://www.wificafespots.com/wifi/country/Sweden
 
 ### Сім картка
-There might be free SIM cards handed out outside of the Migration boards asylum seeking office, at ferry ports or train stations. Reach out to the present help organisations or volunteers to get more information about this.
+Біля міграційного офісу з питань притулку, на станціях парому та на залізничних станціях можуть видавати безкоштовні сім-картки. Попитайте волонтерів щодо детальної інформації.
 
-At Pressbyrån (or any equivalent convenient store, located by the gates to almost every subway and train station around Sweden) you can get a prepaid SIM card from various low fare providers and top up with both data and phone plans as you go.
+У Pressbyrån (або інших невеличких супермаркетів, які розташовані біля майже кожного виходу із станцій метро або залізниці по всій Швеції) ви можете придбати передплатну сім-картку(як звичайна картка в Україні, з поповненням)
+від різних дешевих провайдерів зв’язку. Доступні тарифи із інтернетом.
 
 [Pressbyrån](https://webshop.pressbyran.se/Tjanster/Tjansteributik/kontantkort/)
 
-You can also visit any of these local operators to get a prepaid SIM card on arrival to Sweden. In order to sign up for a cell phone plan you will most likely be required to be registered as a resident in Sweden.  
+Також ви можете завітати до локальних операторів щоб придбати сім-картку з предоплатою по прибутті в Швецію. Щоб отримати контрактну сім-картку вам буде потрібна шведська реєстрація(ВНЖ або інша реєстрація)
 
 [Telia](https://www.telia.se/privat/kontakt/butikerochaterforsaljare)
 
