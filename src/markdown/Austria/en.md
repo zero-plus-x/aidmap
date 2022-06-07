@@ -1,4 +1,4 @@
-#au Austria
+# 🇦🇹 Austria
 
 ## Information from European Commission
 
