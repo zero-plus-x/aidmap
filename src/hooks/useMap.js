@@ -7,7 +7,7 @@ import topology from '../data/topology.json'
 import { useSetActiveCountryName } from '../contexts/activeCountryNameContext'
 
 const DEFAULT_SCALE = 1.4
-const HIGHLIGHTED_COUNTRIES = ['Austria', 'Belgium', 'Finland', 'Sweden']
+const HIGHLIGHTED_COUNTRIES = ['Austria', 'Belgium', 'Croatia', 'Finland', 'Sweden']
 
 const getFillColorForCountry = (name) => {
   if (!name) {
