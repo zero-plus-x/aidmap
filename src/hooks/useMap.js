@@ -14,6 +14,7 @@ const HIGHLIGHTED_COUNTRIES = [
   'Croatia',
   'Cyprus',
   'Czechia',
+  'Estonia',
   'Finland',
   'Sweden',
 ]
