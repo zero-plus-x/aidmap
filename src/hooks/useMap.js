@@ -22,6 +22,7 @@ const HIGHLIGHTED_COUNTRIES = [
   'Greece',
   'Hungary',
   'Ireland',
+  'Italy',
   'Sweden',
 ]
 
