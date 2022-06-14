@@ -1,0 +1,35 @@
+# Италия
+
+## Информация от Европейской Коммиссии
+
+[Оригинальный источник](https://ec.europa.eu/info/strategy/priorities-2019-2024/stronger-europe-world/eu-solidarity-ukraine/eu-assistance-ukraine/information-people-fleeing-war-ukraine_ru)
+
+### Национальные контактные данные
+
+Министерство иностранных дел ([IT](https://www.esteri.it/en/sala_stampa/archivionotizie/comunicati/2022/03/fornitura-di-beni-umanitari-in-favore-della-popolazione-ucraina/))
+
+Министерство внутренних дел ([IT](https://www.interno.gov.it/it/info-utili-lingresso-dei-profughi-ucraini-italia)) Руководство для просителей убежища ([EN](https://www.interno.gov.it/sites/default/files/allegati/la_guida_in_inglese.pdf))
+
+Национальный департамент гражданской обороны ([IT](https://emergenze.protezionecivile.gov.it/it/umanitarie) / [EN](https://emergenze.protezionecivile.gov.it/en/humanitarian)) - – карточки с ключевой информацией ([IT](https://emergenze.protezionecivile.gov.it/static/96d8a2c6556508cf2ca1b3d6bc602ec5/benvenuto-ita_4.pdf) / [EN](https://emergenze.protezionecivile.gov.it/static/7987473fbd98ca6477a659e6fd390df3/benvenuto-eng_4.pdf) / [UK](https://emergenze.protezionecivile.gov.it/static/59fdc9a349113f57459ca75180b23105/benvenuto-ucr_4.pdf) / [RU](https://emergenze.protezionecivile.gov.it/static/0b0ed0eb16b9a9c3cc6f2c54b0fa3ddd/benvenuto-rus_5.pdf))
+
+### Ключевые организации, оказывающие помощь на местах
+
+УВКБ ([IT](https://help.unhcr.org/italy/))
+
+Итальянский совет по делам беженцев ([IT](http://www.cir-onlus.org/))
+
+Comunità di Sant’Egidio ([EN](https://www.santegidio.org/pageID/30704/langID/en/itemID/169/Ukrainian-Emergency--Donate-now.html) / [IT](https://www.santegidio.org/pageID/1/langID/it/HOME.html) / [RU](https://www.santegidio.org/pageID/1/langID/ru/HOME.html))
+
+Итальянский Красный Крест ([IT](https://cri.it/emergenzaucraina/))
+
+[Каритас Амброзиана](https://caritasambrosiana.it/area-per-la-stampa/approfondimenti-area-per-la-stampa/aiuto-ai-profughi-ucraini) ([IT](https://caritasambrosiana.it/area-per-la-stampa/approfondimenti-area-per-la-stampa/aiuto-ai-profughi-ucraini))
+
+НПО AVSI ([IT](https://www.avsi.org/it/campaign/emergenza-ucraina-standwithukraine/88/))
+
+НПО AIBI([IT](https://www.aibi.it/ita/bambinixlapace/?utm_source=site-ita&utm_medium=button&utm_campaign=bambinixlapace&utm_id=bambinixlapace-menu-new))
+
+Страница Facebook НПО Intersos ([IT](https://www.facebook.com/donate/1389972194776670/))
+
+### Возможности бесплатного передвижения
+
+Люди, бежавшие из Украины, могут бесплатно пользоваться транспортом [транспортом Flixbus](https://corporate.flixbus.com/flixbus-supports-ukraine/), транспортом Marino Bus и [поездами Trenord](https://www.trenord.it/news/trenord-informa/comunicati-stampa/ucraina-i-cittadini-in-fuga-dalla-guerra-possono-viaggiare-gratuitamente-sui-treni-trenord/). Они также могут бесплатно передвигаться [транспортом Trenitalia group](https://www.protezionecivile.gov.it/it/comunicato-stampa/emergenza-ucraina-firmata-lordinanza-sulla-gratuita-dei-trasporti-i-cittadini-ucraini-italia-0) в течение не более 5 дней с момента въезда в Италию.
