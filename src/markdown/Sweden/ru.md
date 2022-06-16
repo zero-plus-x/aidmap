@@ -176,5 +176,14 @@ http://www.wificafespots.com/wifi/country/Sweden
 
 Поддержка Шведского юридического центра по делам беженцев, тел. +46 (0) 200-88 00 66
 
+##Национальные контактные данные
+Шведское миграционное агентство ([EN](https://www.migrationsverket.se/English/About-the-Migration-Agency/The-situation-in-Ukraine.html)) с информацией о временной защите
+
+##Ключові організації, що надають допомогу на місцях
+Шведский Красный Крест ([SV](https://www.rodakorset.se/fa-hjalp/migrationsradgivning-gallande-ukraina/))
+
+##Возможности бесплатного передвижения
+[Транспорт Stena Line](https://www.stenaline.com/media/stories/offering-free-transport-to-support-the-ukrainian-people/) и [общественный транспорт в Стокгольме](https://sl.se/aktuellt/nyheter/ukrainian-passport-or-id--a-valid-ticket-for-public-transport-in-stockholm/)
+
 ## Другие полезные волонтерские проекты
 https://www.helpinchange.org
