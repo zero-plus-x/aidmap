@@ -5,6 +5,7 @@
 [Оригінальне джерело](https://ec.europa.eu/info/strategy/priorities-2019-2024/stronger-europe-world/eu-solidarity-ukraine/eu-assistance-ukraine/information-people-fleeing-war-ukraine_uk)
 
 ### Контактна інформація національних органів
+
 Інформація для громадян України, що тікають від конфлікту ([UK](https://www.mvcr.cz/clanek/informace-pro-obcany-ukrajiny.aspx?q=Y2hudW09Mg%3d%3d) / [CS](https://www.mvcr.cz/clanek/informace-pro-obcany-ukrajiny.aspx))
 
 Управління у справах біженців Міністерства внутрішніх справ ([CS](http://www.suz.cz/informace-pro-obcany-ukrajiny-%d1%96%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d1%96%d1%8f-%d0%b4%d0%bb%d1%8f-%d0%b3%d1%80%d0%be%d0%bc%d0%b0%d0%b4%d1%8f%d0%bd-%d1%83%d0%ba%d1%80%d0%b0%d1%97%d0%bd/) / [EN](https://www.suz.cz/en/) / [UK](http://www.suz.cz/informace-pro-obcany-ukrajiny-%d1%96%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d1%96%d1%8f-%d0%b4%d0%bb%d1%8f-%d0%b3%d1%80%d0%be%d0%bc%d0%b0%d0%b4%d1%8f%d0%bd-%d1%83%d0%ba%d1%80%d0%b0%d1%97%d0%bd/))
@@ -44,4 +45,5 @@ ADRA (Організація з гуманітарних питань та ро�
 Незалежна міжнародна медична гуманітарна організація Lékaři bez hranic (Лікарі без кордонів) ([CS](https://www.lekari-bez-hranic.cz/ukrajina))
 
 ### Варіанти безкоштовного проїзду
+
 [RegioJet](https://novy.regiojet.cz/ukrajina), Leo Express, поїзди České dráhy([https://www.cd.cz/info/aktuality/-36295/](https://www.cd.cz/info/aktuality/-36295/)), [Arriva transport](https://www.arriva.cz/), Празький громадський транспорт і громадський транспорт в Центральночеському краї.

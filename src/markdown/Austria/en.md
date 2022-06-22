@@ -14,8 +14,6 @@ Ministry of the Interior FAQ for people fleeing Ukraine [UK](https://www.bmi.gv.
 
 Public Employment Service: how to get a work permit ([DE](https://www.ams.at/arbeitsuchende/arbeiten-in-oesterreich-und-der-eu/ukraine#informationen-in-deutsch) / [UK](https://www.ams.at/arbeitsuchende/arbeiten-in-oesterreich-und-der-eu/ukraine#--)/ [EN](https://www.ams.at/arbeitsuchende/arbeiten-in-oesterreich-und-der-eu/ukraine#inormations-in-english))
 
- 
-
 ###Key organisations helping on the ground
 
 List of organisations [DE](https://www.bmi.gv.at/bmi_documents/2752.pdf)

@@ -13,6 +13,7 @@ Denmark immigration service dedicated webpage on how to apply for residence perm
 Danish Centre for the Ukrainian crisis ([UK](https://en.kriseinformation.dk/%d1%83%d0%ba%d1%80%d0%b0%d1%97%d0%bd%d1%81%d1%8c%d0%ba%d0%b8%d0%b9) / [EN](https://en.kriseinformation.dk/for-ukrainians))
 
 ### Free travel options
+
 People fleeing from Ukraine can use [DSB trains](https://www.dsb.dk/eng-ukraine/) free of charge.
 
 Ukrainian cars can pass [Öresundsbron (Denmark-Sweden bridge)](https://news.cision.com/dk/oresundsbro-konsortiet/r/oresundsbron-hjaelper-flygtninge-fra-ukraine,c3516509) without being charged.

@@ -5,6 +5,7 @@
 [Оригинальный источник](https://ec.europa.eu/info/strategy/priorities-2019-2024/stronger-europe-world/eu-solidarity-ukraine/eu-assistance-ukraine/information-people-fleeing-war-ukraine_ru)
 
 ### Национальные контактные данные
+
 Официальный информационный сайт правительства ([FR / UK](https://parrainage.refugies.info/ukraine/))
 
 Посольство Украины во Франции ([FR](https://fr.aideukraine.fr/pages/2ie586yhGwOCr1VXujxmPA/j-ai-besoin-d-aide) / [UK](https://ua.aideukraine.fr/pages/5qB2nW7qd7jCVzl2TFcjv6/meni-potribna-dopomoga)) +33 187666612 (нажмите 2 для украинского языка)

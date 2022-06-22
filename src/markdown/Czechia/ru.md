@@ -17,6 +17,7 @@
 Посольство Украины в Праге — страница Facebook([UK](https://www.facebook.com/UkraineEmbassyinCzechia/))
 
 ### Ключевые организации, оказывающие помощь на местах
+
 Мы стоим за Украину ([CS](https://www.stojimezaukrajinou.cz/) / [EN](https://www.stojimezaukrajinou.cz/en) / [UK](https://www.stojimezaukrajinou.cz/ua) / [RU](https://www.stojimezaukrajinou.cz/ru))
 
 Поездка для беженцев – как получить транспорт от границы ([CS](https://doprava.plnu.cz/for-refugees/) / [EN](https://doprava.plnu.cz/for-refugees/) / [UK](https://doprava.plnu.cz/for-refugees/))
@@ -44,4 +45,5 @@ Diakonie ČCE ([CS](http://www.diakoniespolu.cz/))
 Lékaři bez hranic («Врачи без границ») ([CS](https://www.lekari-bez-hranic.cz/ukrajina))
 
 ### Возможности бесплатного передвижения
+
 [RegioJet](https://novy.regiojet.cz/ukrajina), Leo Express, поезда České dráhy([https://www.cd.cz/info/aktuality/-36295/](https://www.cd.cz/info/aktuality/-36295/)), [Arriva transport](https://www.arriva.cz/), общественный транспорт в Праге и общественный транспорт в Среднечешском крае.

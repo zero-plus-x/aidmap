@@ -18,7 +18,7 @@
 
 Українська община в Люксембургу LUkraine ([UK](https://ukrainians.lu/uk/main/) / [EN](https://ukrainians.lu/))
 
-Червоний Хрест - Часті питання для біженців з України ([EN](https://www.croix-rouge.lu/en/conflict-in-ukraine-help-in-luxembourg/#ineedhelp) / [FR](https://www.croix-rouge.lu/fr/conflit-en-ukraine-informations-sur-laccueil-au-luxembourg/#jaibesoindaide) / [DE](https://www.croix-rouge.lu/de/konflikt-in-der-ukraine-helfen-und-hilfe-in-luxemburg/#ichbrauchehilfe)),  электронна скринька wellkomm@croix-rouge.lu (in FR / EN / DE / UK / RU)
+Червоний Хрест - Часті питання для біженців з України ([EN](https://www.croix-rouge.lu/en/conflict-in-ukraine-help-in-luxembourg/#ineedhelp) / [FR](https://www.croix-rouge.lu/fr/conflit-en-ukraine-informations-sur-laccueil-au-luxembourg/#jaibesoindaide) / [DE](https://www.croix-rouge.lu/de/konflikt-in-der-ukraine-helfen-und-hilfe-in-luxemburg/#ichbrauchehilfe)), электронна скринька wellkomm@croix-rouge.lu (in FR / EN / DE / UK / RU)
 
 Некомерційна організація Médecins du monde: для отримання медичної допомоги ([FR](https://medecinsdumonde.lu/fr/page/les-beneficiaires-au-luxembourg)) +35 28892371
 

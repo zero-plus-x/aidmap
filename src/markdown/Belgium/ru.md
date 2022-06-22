@@ -35,6 +35,7 @@ Serve the City Brussels ([FR](https://www.servethecity.brussels/fr/) / [NL](http
 Страница Facebook – Солидарность с Украиной ([EN](https://www.facebook.com/groups/743620183286581))
 
 PAG-ASA для жертв эксплуатации ([EN](https://pag-asa.be/?lang=true) / [FR](https://pag-asa.be/fr/?lang=true) / [NL](https://pag-asa.be/nl/?lang=true)) +32 25116464
+
 ### Возможности бесплатного передвижения
 
 [Поезда SNCB/NMBS](https://www.belgiantrain.be/en/news/ticket-help-ukraine) и Thalys

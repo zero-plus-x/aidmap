@@ -1,4 +1,5 @@
 # Portugal
+
 ## Information from European Commission
 
 [Original source ](https://ec.europa.eu/info/strategy/priorities-2019-2024/stronger-europe-world/eu-solidarity-ukraine/eu-assistance-ukraine/information-people-fleeing-war-ukraine)

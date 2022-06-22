@@ -19,6 +19,7 @@
 Гуманітарна допомога (24/7) +370 68498688
 
 ### Ключові організації, що допомагають на місці
+
 Соціальна ініціатива Stiprus Kartu ([UK](https://stipruskartu.lt/ua/) / [EN](http://www.stipruskartu.lt/) / [LT](https://stipruskartu.lt/lt/))
 
 Литовський Червоний Хрест ([SV](https://www.redcross.lt/))

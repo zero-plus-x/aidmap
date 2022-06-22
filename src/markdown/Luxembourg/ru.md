@@ -18,7 +18,7 @@
 
 LUkraine, Украинская община в Люксембурге ([UK](https://ukrainians.lu/uk/main/) / [EN](https://ukrainians.lu/))
 
-Красный Крест – ЧЗВ для украинских беженцев ([EN](https://www.croix-rouge.lu/en/conflict-in-ukraine-help-in-luxembourg/#ineedhelp) / [FR](https://www.croix-rouge.lu/fr/conflit-en-ukraine-informations-sur-laccueil-au-luxembourg/#jaibesoindaide) / [DE](https://www.croix-rouge.lu/de/konflikt-in-der-ukraine-helfen-und-hilfe-in-luxemburg/#ichbrauchehilfe)),  электронная почта wellkomm@croix-rouge.lu (in FR / EN / DE / UK / RU)
+Красный Крест – ЧЗВ для украинских беженцев ([EN](https://www.croix-rouge.lu/en/conflict-in-ukraine-help-in-luxembourg/#ineedhelp) / [FR](https://www.croix-rouge.lu/fr/conflit-en-ukraine-informations-sur-laccueil-au-luxembourg/#jaibesoindaide) / [DE](https://www.croix-rouge.lu/de/konflikt-in-der-ukraine-helfen-und-hilfe-in-luxemburg/#ichbrauchehilfe)), электронная почта wellkomm@croix-rouge.lu (in FR / EN / DE / UK / RU)
 
 Организация «Врачи мира»: для медицинской помощи ([FR](https://medecinsdumonde.lu/fr/page/les-beneficiaires-au-luxembourg)) +35 28892371
 

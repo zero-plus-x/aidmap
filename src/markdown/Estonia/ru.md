@@ -10,7 +10,7 @@
 
 Главная страница Министерства внутренних дел ([EN](https://www.siseministeerium.ee/en))
 
-Министерство экономики и коммуникаций  ([EN](https://www.mkm.ee/en/news/ukrainian-war-refugees-can-travel-estonian-trains-and-city-and-county-buses-free-charge))
+Министерство экономики и коммуникаций ([EN](https://www.mkm.ee/en/news/ukrainian-war-refugees-can-travel-estonian-trains-and-city-and-county-buses-free-charge))
 
 Главная страница департамента полиции и пограничной службы ([EE](https://www.politsei.ee/et/juhend/info-seoses-ukraina-sojaga) / [EN](https://www.politsei.ee/en/instructions/information-on-the-war-in-ukraine) / [UK](https://www.politsei.ee/uk/instrukciya/informaciya-u-zv-yazku-z-ukrajinskoyu-viynoyu) / [RU](https://www.politsei.ee/ru/instruktsii/informaciya-svyazannaya-s-voynoy-v-ukraine))
 
@@ -18,7 +18,7 @@
 
 Правительственная веб-страница с информацией для граждан Украины ([EE](https://www.kriis.ee/julgeolekuolukord-euroopas/info-ukraina-sojapogenikele/eestisse-tulemine) / [EN](https://www.kriis.ee/en/security-situation-europe/ukrainian-war-refugees/coming-estonia) / [RU](https://www.kriis.ee/ru/situaciya-s-besopasnostyu-v-evrope/dlya-bezhencev-iz-ukrainy/priezd-v-estoniyu))
 
-Молодежный портал  ([EE](https://www.teeviit.ee/) / [RU](https://www.teeviit.ee/ru/))
+Молодежный портал ([EE](https://www.teeviit.ee/) / [RU](https://www.teeviit.ee/ru/))
 
 ### Ключевые организации, оказывающие помощь на местах
 

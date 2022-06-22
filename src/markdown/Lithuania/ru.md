@@ -18,8 +18,8 @@ Eurodesk Литва ([LT](https://zinauviska.lt/ukraina/) / [UK](https://zinauvi
 
 Гуманитарная помощь (24/7) + 370 68498688
 
- 
 ### Ключевые организации, оказывающие помощь на местах
+
 Социальная инициатива Stiprus Kartu ([UK](https://stipruskartu.lt/ua/) / [EN](http://www.stipruskartu.lt/) / [LT](https://stipruskartu.lt/lt/))
 
 Литовский Красный Крест ([SV](https://www.redcross.lt/))

@@ -35,6 +35,7 @@ List of initiatives in Belgium – Belgians for Ukraine ([EN](https://linktr.ee/
 Facebook page - Solidarity with Ukraine ([EN](https://www.facebook.com/groups/743620183286581))
 
 PAG-ASA for victims of exploitation ([EN](https://pag-asa.be/?lang=true) / [FR](https://pag-asa.be/fr/?lang=true) / [NL](https://pag-asa.be/nl/?lang=true)) +32 25116464
+
 ### Free travel options
 
 [SNCB/NMBS trains](https://www.belgiantrain.be/en/news/ticket-help-ukraine) and Thalys

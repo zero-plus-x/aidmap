@@ -14,8 +14,6 @@
 
 Державна служба зайнятості: як отримати дозвіл на роботу ([DE](https://www.ams.at/arbeitsuchende/arbeiten-in-oesterreich-und-der-eu/ukraine#informationen-in-deutsch) / [UK](https://www.ams.at/arbeitsuchende/arbeiten-in-oesterreich-und-der-eu/ukraine#--)/ [EN](https://www.ams.at/arbeitsuchende/arbeiten-in-oesterreich-und-der-eu/ukraine#inormations-in-english))
 
- 
-
 ###Ключові організації, що допомагають на місці
 
 Перелік організацій [DE](https://www.bmi.gv.at/bmi_documents/2752.pdf)

@@ -18,6 +18,6 @@ Ministry of Research, Innovation and Digital Policy Hotline (Monday-Friday 8h00-
 
 ### Key organisations helping on the ground
 
-Facebook group for Ukrainians seeking advice - Cyprus Refugee Council  ([EN](https://www.facebook.com/cyrefugeecouncil/))
+Facebook group for Ukrainians seeking advice - Cyprus Refugee Council ([EN](https://www.facebook.com/cyrefugeecouncil/))
 
 UNHCR Cyprus ([EN](https://help.unhcr.org/cyprus/people-arriving-from-ukraine/))

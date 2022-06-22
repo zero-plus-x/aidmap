@@ -14,8 +14,6 @@
 
 Государственная служба занятости: как получить разрешение на работу ([DE](https://www.ams.at/arbeitsuchende/arbeiten-in-oesterreich-und-der-eu/ukraine#informationen-in-deutsch) / [UK](https://www.ams.at/arbeitsuchende/arbeiten-in-oesterreich-und-der-eu/ukraine#--)/ [EN](https://www.ams.at/arbeitsuchende/arbeiten-in-oesterreich-und-der-eu/ukraine#inormations-in-english))
 
- 
-
 ###Ключевые организации, оказывающие помощь на местах
 
 Список организаций [DE](https://www.bmi.gv.at/bmi_documents/2752.pdf)

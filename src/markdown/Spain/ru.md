@@ -8,9 +8,9 @@
 
 Веб-страница Испанского агентства по международному сотрудничеству и развитию ([ES](https://www.aecid.es/ES/Paginas/Sala%20de%20Prensa/Tus%20campa%C3%B1as/Ucrania.aspx))
 
-Веб-страница Министерства внутренних дел ([ES](https://www.inclusion.gob.es/es/ucrania/protecciontemporal/index.htm)),  с информацией о временной защите
+Веб-страница Министерства внутренних дел ([ES](https://www.inclusion.gob.es/es/ucrania/protecciontemporal/index.htm)), с информацией о временной защите
 
-Горячая линия Министерства интеграции, социального обеспечения и миграции +34 910474444  ([ES](https://www.inclusion.gob.es/es/ucrania/index.htm) / [UK](https://www.inclusion.gob.es/uk/ucrania/index.htm))
+Горячая линия Министерства интеграции, социального обеспечения и миграции +34 910474444 ([ES](https://www.inclusion.gob.es/es/ucrania/index.htm) / [UK](https://www.inclusion.gob.es/uk/ucrania/index.htm))
 
 Управление по вопросам убежища ([ES](http://www.interior.gob.es/web/servicios-al-ciudadano/oficina-de-asilo-y-refugio))
 
@@ -26,7 +26,7 @@
 
 Испанский Красный Крест ([ES](https://www2.cruzroja.es/))
 
-Каритас  ([ES](https://dona.medicosdelmundo.org/donaciones?gclid=CjwKCAiAvaGRBhBlEiwAiY-yMB_UOO3RzCyNoJjlnmbW4Z-uTwPZKWpVm9w_cYDcoBXnwDQKZdy1IRoC2TAQAvD_BwE))
+Каритас ([ES](https://dona.medicosdelmundo.org/donaciones?gclid=CjwKCAiAvaGRBhBlEiwAiY-yMB_UOO3RzCyNoJjlnmbW4Z-uTwPZKWpVm9w_cYDcoBXnwDQKZdy1IRoC2TAQAvD_BwE))
 
 Испанская комиссия по оказанию помощи беженцам ([ES](https://www.cear.es/))
 

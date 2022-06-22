@@ -12,8 +12,8 @@ City Council of Riga Hotline (24/7) +371 80000800
 
 Information on free Healthcare state funded services (8h30-17h00) +371 80001234
 
- 
 ### Key organisations helping on the ground
+
 Unified information helpline for Ukrainians in Latvia (24/7) +371 27380380
 
 Telegram: t.me/ukrainelatvia

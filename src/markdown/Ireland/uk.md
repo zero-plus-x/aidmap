@@ -5,6 +5,7 @@
 [Оригінальне джерело](https://ec.europa.eu/info/strategy/priorities-2019-2024/stronger-europe-world/eu-solidarity-ukraine/eu-assistance-ukraine/information-people-fleeing-war-ukraine_uk)
 
 ### Контактна інформація національних органів
+
 Інформація про візові вимоги Міністерства юстиції Ірландії ([EN](https://www.irishimmigration.ie/the-minister-for-justice-helen-mcentee-td-has-announced-the-immediate-lifting-of-entry-visa-requirements-for-ukrainian-nationals/))
 
 Часті питання про подорож Ірландією ([EN](https://www.irishimmigration.ie/wp-content/uploads/2022/03/FAQ-Ukraine-Final.pdf))

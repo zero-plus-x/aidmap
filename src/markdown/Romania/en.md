@@ -22,9 +22,9 @@ From abroad +40 213133100
 
 ### Key organisations helping on the ground
 
-UNHCR Romania ([EN](https://help.unhcr.org/romania/))  Hotline +40 723653 651
+UNHCR Romania ([EN](https://help.unhcr.org/romania/)) Hotline +40 723653 651
 
-Romanian National Council for Refugees ([UK](https://cnrr.ro/index.php/ro/41-recent-news/489-cnrr))  Hotline +40 730073170
+Romanian National Council for Refugees ([UK](https://cnrr.ro/index.php/ro/41-recent-news/489-cnrr)) Hotline +40 730073170
 
 IOM ([EN](https://romania.iom.int/sites/g/files/tmzbdl1556/files/Entering%20Romania%20from%20Ukraine.pdf) / [UK](https://romania.iom.int/sites/g/files/tmzbdl1556/files/inline-files/%D0%92%E2%80%99%D1%97%D0%B7%D0%B4%20%D0%B4%D0%BE%20%D0%A0%D1%83%D0%BC%D1%83%D0%BD%D1%96%D1%97%20%D0%B7%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20V1.2.2%20%281%29.pdf))
 

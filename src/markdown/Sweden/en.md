@@ -13,6 +13,7 @@ Non-emergency medical help may be rather slow.
 Sweden has railway and roadway connections with Denmark, Finland, and Norway.
 
 There are multiple ferries going across the Baltic sea:
+
 - from Gdansk in Poland to Nynashamn near Stockholm
 - from Gdynia in Poland to Karlskrona in southern Sweden
 - from Swinoujscie in Poland to Trelleborg and Ystad in southern Sweden
@@ -30,6 +31,7 @@ Public transport in some cities including Stockholm is free for people with Ukra
 ## Asylum
 
 ### Rules
+
 The Swedish Migration Agency assists with food and temporary accommodation for anyone who has not found accommodation on their own. When you have received your permit you
 have the right to: work, health care, schooling for children and certain financial allowance in Sweden.
 
@@ -69,40 +71,49 @@ Jägersrovägen 160
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Malmo---Ansoka-om-asyl.html
 
 ### Offices to apply for Temporary Protection Directive
+
 #### Boden
 
 Hedenbrovägen 4
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Boden---Servicecenter.html
+
 #### Göteborg
 
 Streteredsvägen 90, Kållered
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Goteborg---Ansoka-om-asyl.html
+
 #### Malmö
 
 Agnesfridsvägen 111
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Malmo---Servicecenter.html
+
 #### Norrköping
 
 Slottsgatan 82
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Norrkoping---Servicecenter.html
+
 #### Stockholm (Märsta)
 
 Maskingatan 9, Märsta
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Stockholm---Marsta.html
+
 #### Stockholm (Sundbyberg)
+
 Sturegatan 15, Sundbyberg
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Stockholm---Servicecenter.html
+
 #### Sundsvall
 
 Sjögatan 17
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Sundsvall---Servicecenter.html
+
 #### Örebro
 
 Östra Bangatan 7 A
@@ -112,6 +123,7 @@ https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Orebro--
 ## Where to find
 
 ### Accommodation
+
 There are multiple projects helping people to find accommodation in Sweden, here are some of them:
 
 https://www.shelter4ua.com/
@@ -123,40 +135,47 @@ https://icanhelp.host/
 As an additional security measure, you can check the identity of your potential host on https://www.hitta.se.
 
 ### Free food and clothes
+
 This might be offered from time to time from various help and volunteer organisations. In order to get the most up-to-date relevant information, visit the help organisations webpage or local aid centre to ask a volunteer for more information.
 
-Also, there are second hand stores which are not exactly free, but provide more easily affordable used items, such as clothes, shoes, toys, utilities, furniture, etc. and can be found all around Sweden. 
+Also, there are second hand stores which are not exactly free, but provide more easily affordable used items, such as clothes, shoes, toys, utilities, furniture, etc. and can be found all around Sweden.
 
 Some of the major help organizations and second hand stores across Sweden:
 
 All over Sweden
+
 - Röda korset (Red cross) https://www.rodakorset.se/fa-hjalp/varme-mat-och-klader/
 - Erikshjälpen https://erikshjalpen.se/second-hand/vara-butiker/
 
 In Stockholm
+
 - Stockholms Stadsmission https://www.stadsmissionen.se/hitta-butik
 - Emmaus https://emmausstockholm.se
 
 Southern Sweden
+
 - Skåne Stadsmission https://www.skanestadsmission.se/fa-stod/
 
 Nothern Sweden
+
 - The Swedish Church of Boden (Address: Strandplan 25, 96134 BODEN)
 
 ### Free Wi-Fi
+
 There is usually free Wi-Fi in many public areas in Sweden, including airports, major train station and government institutions.
 Pressbyrån shops which usually can be found next to subway stations also have free Wi-Fi.
 Many cafes and restaurants also have free Wi-Fi. This map can help you find these access points:
 http://www.wificafespots.com/wifi/country/Sweden
 
 ### SIM-card
+
 There might be free SIM cards handed out outside of the Migration boards asylum seeking office, at ferry ports or train stations. Reach out to the present help organisations or volunteers to get more information about this.
 
 At Pressbyrån (or any equivalent convenient store, located by the gates to almost every subway and train station around Sweden) you can get a prepaid SIM card from various low fare providers and top up with both data and phone plans as you go.
 
 [Pressbyrån](https://webshop.pressbyran.se/Tjanster/Tjansteributik/kontantkort/)
 
-You can also visit any of these local operators to get a prepaid SIM card on arrival to Sweden. In order to sign up for a cell phone plan you will most likely be required to be registered as a resident in Sweden.  
+You can also visit any of these local operators to get a prepaid SIM card on arrival to Sweden. In order to sign up for a cell phone plan you will most likely be required to be registered as a resident in Sweden.
 
 [Telia](https://www.telia.se/privat/kontakt/butikerochaterforsaljare)
 
@@ -167,6 +186,7 @@ You can also visit any of these local operators to get a prepaid SIM card on arr
 [Tre](https://www.tre.se/om-tre/kontakt/butiker)
 
 ## National phone numbers
+
 For emergency situations, call 112
 
 Help with sickness and health care, call 1177
@@ -174,7 +194,6 @@ Help with sickness and health care, call 1177
 For non-urgent police cases, call 11414
 
 Support from Swedish Refugee Law Center, call +46 (0) 200-88 00 66
-
 
 ##National contact details
 Swedish migration agency ([EN](https://www.migrationsverket.se/English/About-the-Migration-Agency/The-situation-in-Ukraine.html)), with information on temporary protection
@@ -185,6 +204,6 @@ Swedish Red Cross ([SV](https://www.rodakorset.se/fa-hjalp/migrationsradgivning-
 ##Free travel options
 [Stena Line transport](https://www.stenaline.com/media/stories/offering-free-transport-to-support-the-ukrainian-people/) and [Stockholm public transport](https://sl.se/aktuellt/nyheter/ukrainian-passport-or-id--a-valid-ticket-for-public-transport-in-stockholm/)
 
-
 ## Other helpful volunteer projects
+
 https://www.helpinchange.org

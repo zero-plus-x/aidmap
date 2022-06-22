@@ -16,7 +16,7 @@
 
 Міністерство освіти, науки, досліджень та спорту ([SK](https://www.minedu.sk/29993-sk/situacia-na-ukrajine/) / [EN](https://www.minedu.sk/about-the-ministry/))
 
-Регіональна гаряча лінія Кошице +421 2800222550,   електронна пошта pomocukrajine@vucke.sk
+Регіональна гаряча лінія Кошице +421 2800222550, електронна пошта pomocukrajine@vucke.sk
 
 ### Ключові організації, що допомагають на місці
 
@@ -24,7 +24,7 @@
 
 Неурядова організація Človek v ohrození (Людина в біді) ([SK](https://clovekvohrozeni.sk/) / [EN](https://clovekvohrozeni.sk/help-to-ukraine/)) Інформаційна лінія +421 917239708
 
-Неурядова організація Sme spolu (Словацько-Українська неурядова організація) ([UK](https://smespolu.org/ua/%d0%b4%d1%96%d1%8f%d0%bb%d1%8c%d0%bd%d1%96%d1%81%d1%82%d1%8c/%d0%b4%d0%be%d0%bf%d0%be%d0%bc%d0%be%d0%b3%d0%b0-%d0%b6%d0%b5%d1%80%d1%82%d0%b2%d0%b0%d0%bc-%d0%b2%d0%be%d0%b9%d0%bd%d0%b8-%d0%b2-%d1%83%d0%ba%d1%80%d0%b0%d1%97%d0%bd%d1%96/) / [SK](https://smespolu.org/aktivity/pomoc-obetiam-vojny-na-ukrajine/) / [EN](https://smespolu.org/en/activities/helping-victims-of-the-war-in-ukraine/))  горячая линия +421 911201889
+Неурядова організація Sme spolu (Словацько-Українська неурядова організація) ([UK](https://smespolu.org/ua/%d0%b4%d1%96%d1%8f%d0%bb%d1%8c%d0%bd%d1%96%d1%81%d1%82%d1%8c/%d0%b4%d0%be%d0%bf%d0%be%d0%bc%d0%be%d0%b3%d0%b0-%d0%b6%d0%b5%d1%80%d1%82%d0%b2%d0%b0%d0%bc-%d0%b2%d0%be%d0%b9%d0%bd%d0%b8-%d0%b2-%d1%83%d0%ba%d1%80%d0%b0%d1%97%d0%bd%d1%96/) / [SK](https://smespolu.org/aktivity/pomoc-obetiam-vojny-na-ukrajine/) / [EN](https://smespolu.org/en/activities/helping-victims-of-the-war-in-ukraine/)) горячая линия +421 911201889
 
 Неурядова організація Iniciativa Kto pomoze Ukrajine (Неурядова організація Ініціатива допомоги Україні) ([UK](https://www.helpukraine.sk/ua/) / [EN](https://www.helpukraine.sk/))
 

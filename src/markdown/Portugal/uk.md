@@ -6,7 +6,7 @@
 
 ### Контактна інформація національних органів
 
-Спеціальний урядовий портал  ([PT](https://portugalforukraine.gov.pt/) / [EN](https://portugalforukraine.gov.pt/en/pagina-inicial-english/))
+Спеціальний урядовий портал ([PT](https://portugalforukraine.gov.pt/) / [EN](https://portugalforukraine.gov.pt/en/pagina-inicial-english/))
 
 Інформація для людей, що прибувають з України до Португалії ([PT](https://eportugal.gov.pt/pt/noticias/ucrania-informacoes-para-pessoas-deslocadas-em-portugal) / [EN](https://eportugal.gov.pt/en/noticias/ucrania-informacoes-para-pessoas-deslocadas-em-portugal))
 

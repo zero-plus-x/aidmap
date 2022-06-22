@@ -12,7 +12,7 @@
 
 Міністерство економіки та комунікації ([EN](https://www.mkm.ee/en/news/ukrainian-war-refugees-can-travel-estonian-trains-and-city-and-county-buses-free-charge))
 
-Домашня сторінка Управління поліції та прикордонних військ  ([EE](https://www.politsei.ee/et/juhend/info-seoses-ukraina-sojaga) / [EN](https://www.politsei.ee/en/instructions/information-on-the-war-in-ukraine) / [UK](https://www.politsei.ee/uk/instrukciya/informaciya-u-zv-yazku-z-ukrajinskoyu-viynoyu) / [RU](https://www.politsei.ee/ru/instruktsii/informaciya-svyazannaya-s-voynoy-v-ukraine))
+Домашня сторінка Управління поліції та прикордонних військ ([EE](https://www.politsei.ee/et/juhend/info-seoses-ukraina-sojaga) / [EN](https://www.politsei.ee/en/instructions/information-on-the-war-in-ukraine) / [UK](https://www.politsei.ee/uk/instrukciya/informaciya-u-zv-yazku-z-ukrajinskoyu-viynoyu) / [RU](https://www.politsei.ee/ru/instruktsii/informaciya-svyazannaya-s-voynoy-v-ukraine))
 
 Домашня сторінка Фонду соціального страхування ([EE](https://sotsiaalkindlustusamet.ee/et/ukraina) / [EN](https://sotsiaalkindlustusamet.ee/en/ukraine) / [RU](https://sotsiaalkindlustusamet.ee/ru/chavo-po-obsluzhivaniyu-klientov)) гаряча лінія 1247
 
@@ -24,7 +24,7 @@
 
 Перелік неурядових організацій([EE](https://kriis.ee/aita-ukrainat) / [EN](https://kriis.ee/en/help-ukraine) / [RU](https://kriis.ee/ru/pomogite-ukraine))
 
-Естонська рада з питань біженців ([EE](https://www.pagulasabi.ee/) / [EN](https://www.pagulasabi.ee/en) / [UK](https://www.pagulasabi.ee/uk) / [RU](https://www.pagulasabi.ee/ru)) Гаряча лінія (кожен день 9-00 - 19-00)  +37 256782288  
+Естонська рада з питань біженців ([EE](https://www.pagulasabi.ee/) / [EN](https://www.pagulasabi.ee/en) / [UK](https://www.pagulasabi.ee/uk) / [RU](https://www.pagulasabi.ee/ru)) Гаряча лінія (кожен день 9-00 - 19-00) +37 256782288
 
 Естонський Червоний Хрест ([EE](https://redcross.ee/))
 

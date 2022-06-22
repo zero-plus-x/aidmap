@@ -24,7 +24,7 @@ Youth Portal ([EE](https://www.teeviit.ee/) / [RU](https://www.teeviit.ee/ru/))
 
 List of NGOs ([EE](https://kriis.ee/aita-ukrainat) / [EN](https://kriis.ee/en/help-ukraine) / [RU](https://kriis.ee/ru/pomogite-ukraine))
 
-Estonian Refugee Council ([EE](https://www.pagulasabi.ee/) / [EN](https://www.pagulasabi.ee/en) / [UK](https://www.pagulasabi.ee/uk) / [RU](https://www.pagulasabi.ee/ru)) Hotline (every day 9h00-19h00)  +37 256782288 
+Estonian Refugee Council ([EE](https://www.pagulasabi.ee/) / [EN](https://www.pagulasabi.ee/en) / [UK](https://www.pagulasabi.ee/uk) / [RU](https://www.pagulasabi.ee/ru)) Hotline (every day 9h00-19h00) +37 256782288
 
 Estonian Red Cross ([EE](https://redcross.ee/))
 

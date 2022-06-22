@@ -38,7 +38,7 @@ Polska Akcja Humanitarna (Польская гуманитарная акция) 
 
 Fundacja Ocalenie ([EN](https://crm.ocalenie.org.pl/civicrm/contribute/transact?reset=1&id=3&lang=en) / [PL](https://crm.ocalenie.org.pl/civicrm/contribute/transact?reset=1&id=3&lang=pl))
 
-Polska Misja Medyczna (Польская медицинская миссия)  ([EN](https://pmm.org.pl/en/ukraine-urgent-medical-aid))
+Polska Misja Medyczna (Польская медицинская миссия) ([EN](https://pmm.org.pl/en/ukraine-urgent-medical-aid))
 
 UA SOS ([EN](https://uasos.org/en) / [UK](https://uasos.org/ua) / [PL](https://uasos.org/) / [RU](https://uasos.org/ru))
 

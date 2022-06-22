@@ -1,4 +1,5 @@
 # Poland
+
 ## Information from European Commission
 
 [Original source ](https://ec.europa.eu/info/strategy/priorities-2019-2024/stronger-europe-world/eu-solidarity-ukraine/eu-assistance-ukraine/information-people-fleeing-war-ukraine)
@@ -59,7 +60,7 @@ People fleeing from Ukraine can use free of charge:
 
 [PKP trains](https://www.intercity.pl/pl/site/o-nas/dzial-prasowy/aktualnosci/railway-aid-to-ukraine.html)
 [Polferries](https://polferries.pl/)
-[Flixbus transportation](https://corporate.flixbus.com/flixbus-supports-ukraine/)  inside Poland and from Polish border cities to elsewhere in Europe
+[Flixbus transportation](https://corporate.flixbus.com/flixbus-supports-ukraine/) inside Poland and from Polish border cities to elsewhere in Europe
 
 They can also benefit from discounted tariffs with LOT Airlines.
 

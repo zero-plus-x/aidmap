@@ -13,6 +13,7 @@
 Швеція має залізничне та автомобільне сполучення з Данією, Фінляндією та Норвегією.
 
 Через Балтійське море курсують кілька поромів:
+
 - від Гданська в Польщі до Нінасхамна поблизу Стокгольма
 - від Гдині в Польщі до Карлскруни на півдні Швеції
 - від Свіноуйсьце в Польщі до Треллеборга та Істада на півдні Швеції
@@ -30,6 +31,7 @@
 ## Притулок
 
 ### Правила
+
 Міграційна агенція Швеції допомогає із їжею та тимчасовим житлом усім хто не зміг віднайти притулок самостійно. Коли ви отримаєте дозвіл на перебування в країні,
 ви будете мати право на: працю, охорону здоров’я, доступ вашої дитини до школи та фінансову допомогу в Швеції.
 
@@ -44,7 +46,6 @@
 Зараз українці не можуть отримати статус біженця.
 Українці можуть залишатися в Шенгенській зоні 90 днів. Для тих хто має дійсний біометричний паспорт в наявності, віза в Швецію не потрібна.
 Якщо у вас немає біометричного паспорту, ви можете залишатися в Швеції 90 днів із Шенгенською візою.
-
 
 Більше інформаціі про Директиву Тимчасового Захисту: https://www.migrationsverket.se/Andra-aktorer/Kommuner/Information-om-massflyktsdirektivet.html
 
@@ -69,46 +70,54 @@ Jägersrovägen 160
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Malmo---Ansoka-om-asyl.html
 
 ### Офіси, які подають заявку на отримання Директиви про тимчасовий захист
+
 #### Boden
 
 Hedenbrovägen 4
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Boden---Servicecenter.html
+
 #### Göteborg
 
 Streteredsvägen 90, Kållered
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Goteborg---Ansoka-om-asyl.html
+
 #### Malmö
 
 Agnesfridsvägen 111
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Malmo---Servicecenter.html
+
 #### Norrköping
 
 Slottsgatan 82
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Norrkoping---Servicecenter.html
+
 #### Stockholm (Märsta)
 
 Maskingatan 9, Märsta
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Stockholm---Marsta.html
+
 #### Stockholm (Sundbyberg)
+
 Sturegatan 15, Sundbyberg
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Stockholm---Servicecenter.html
+
 #### Sundsvall
 
 Sjögatan 17
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Sundsvall---Servicecenter.html
+
 #### Örebro
 
 Östra Bangatan 7 A
 
 https://www.migrationsverket.se/Kontakta-oss/Besok-oss/Ortsdata-svenska/Orebro---Servicecenter.html
-
 
 ## Де знайти
 
@@ -125,6 +134,7 @@ https://icanhelp.host/
 Як додатковий захід безпеки, ви можете перевірити особу вашого потенційного хоста на https://www.hitta.se.
 
 ### Безкоштовна їжа та одяг
+
 Вона може бути видана волонтерами або іншими допомагаючими організаціями або людьми. Щоб отримати останню інформацію, зайдіть на сайт організаці, щоб зв'язатися з волонотерами.
 
 Також доступні магазини секонд-хенду, які не безкоштовні, але можуть запропонувати доступні ціни на використані речі, такі як одяг, взуття, іграшки, електроніка, мебель та інше. Вони є по всій Швеції.
@@ -132,26 +142,32 @@ https://icanhelp.host/
 Деякі великі організації та магазини секонд-хенду у Щвеції:
 
 Вся Швеція
+
 - Röda korset (Red cross) https://www.rodakorset.se/fa-hjalp/varme-mat-och-klader/
 - Erikshjälpen https://erikshjalpen.se/second-hand/vara-butiker/
 
 В Стокгольмі
+
 - Stockholms Stadsmission https://www.stadsmissionen.se/hitta-butik
 - Emmaus https://emmausstockholm.se
 
 Південна Швеція
+
 - Skåne Stadsmission https://www.skanestadsmission.se/fa-stod/
 
 Північна Швеція
+
 - The Swedish Church of Boden (Address: Strandplan 25, 96134 BODEN)
 
 ### Безкоштовний Wi-Fi
+
 Зазвичай у багатьох громадських місцях Швеції, включаючи аеропорти, головний залізничний вокзал та державні установи, є безкоштовний Wi-Fi.
 Магазини Pressbyrån, які зазвичай знаходяться поруч зі станціями метро, також мають безкоштовний Wi-Fi.
 У багатьох кафе та ресторанах також є безкоштовний Wi-Fi. Ця карта допоможе вам знайти такі точки доступу:
 http://www.wificafespots.com/wifi/country/Sweden
 
 ### Сім картка
+
 Біля міграційного офісу з питань притулку, на станціях парому та на залізничних станціях можуть видавати безкоштовні сім-картки. Попитайте волонтерів щодо детальної інформації.
 
 У Pressbyrån (або інших невеличких супермаркетів, які розташовані біля майже кожного виходу із станцій метро або залізниці по всій Швеції) ви можете придбати передплатну сім-картку(як звичайна картка в Україні, з поповненням)
@@ -170,6 +186,7 @@ http://www.wificafespots.com/wifi/country/Sweden
 [Tre](https://www.tre.se/om-tre/kontakt/butiker)
 
 ## Національні номери телефонів
+
 У надзвичайних ситуаціях телефонуйте 112
 
 Допомога у зв’язку з хворобою та охороною здоров’я, телефонуйте за номером 1177
@@ -188,4 +205,5 @@ http://www.wificafespots.com/wifi/country/Sweden
 [Транспорт Stena Line](https://www.stenaline.com/media/stories/offering-free-transport-to-support-the-ukrainian-people/) та [громадський транспорт Стокгольма](https://sl.se/aktuellt/nyheter/ukrainian-passport-or-id--a-valid-ticket-for-public-transport-in-stockholm/)
 
 ## Інші корисні волонтерські проекти
+
 https://www.helpinchange.org

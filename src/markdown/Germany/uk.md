@@ -6,7 +6,7 @@
 
 ### Контактна інформація національних органів
 
-Федеральне міністерство внутрішніх справ та общин: Germany4Ukraine ([DE](https://www.germany4ukraine.de/hilfeportal-de) / [UK](https://www.germany4ukraine.de/hilfeportal-ua) / [EN](https://www.germany4ukraine.de/hilfeportal-en) / [RU](https://www.germany4ukraine.de/hilfeportal-ru))  
+Федеральне міністерство внутрішніх справ та общин: Germany4Ukraine ([DE](https://www.germany4ukraine.de/hilfeportal-de) / [UK](https://www.germany4ukraine.de/hilfeportal-ua) / [EN](https://www.germany4ukraine.de/hilfeportal-en) / [RU](https://www.germany4ukraine.de/hilfeportal-ru))
 
 Федеральне міністерство внутрішніх справ та общин: Часті питання до Уряду про в’їзд ([DE](https://www.germany4ukraine.de/hilfeportal-de/faq) / [UK](https://www.germany4ukraine.de/hilfeportal-ua/faqs) / [EN](https://www.germany4ukraine.de/hilfeportal-en/faqs))
 

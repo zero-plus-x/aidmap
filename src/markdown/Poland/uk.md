@@ -38,7 +38,7 @@ Polskie Centrum Pomocy Międzynarodowej (Польський центр міжн�
 
 Фонд Ocalenie ([EN](https://crm.ocalenie.org.pl/civicrm/contribute/transact?reset=1&id=3&lang=en) / [PL](https://crm.ocalenie.org.pl/civicrm/contribute/transact?reset=1&id=3&lang=pl))
 
-Громадська організація Polska Misja Medyczna (Польська медична місія)  ([EN](https://pmm.org.pl/en/ukraine-urgent-medical-aid))
+Громадська організація Polska Misja Medyczna (Польська медична місія) ([EN](https://pmm.org.pl/en/ukraine-urgent-medical-aid))
 
 UA SOS ([EN](https://uasos.org/en) / [UK](https://uasos.org/ua) / [PL](https://uasos.org/) / [RU](https://uasos.org/ru))
 
