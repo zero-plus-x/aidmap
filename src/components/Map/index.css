@@ -2,12 +2,21 @@
   width: 100vw;
   height: 100vh;
   background-color: white;
+  user-select: none;
 }
 
 .country {
-  strokelinecap: round;
-  strokelinejoin: round;
-  strokewidth: 0.05;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 0.2;
+}
+
+.country:hover {
+  opacity: .9;
+}
+
+.country:active {
+  opacity: .9;
 }
 
 .country-label {
