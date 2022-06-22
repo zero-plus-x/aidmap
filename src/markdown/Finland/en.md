@@ -1,4 +1,4 @@
-# 🇫🇮 Finland
+# Finland
 
 ## Information from European Commission
 

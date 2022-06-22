@@ -1,4 +1,4 @@
-# 🇸🇪 Sweden
+# Sweden
 
 ## General information
 
